@@ -1,34 +1,30 @@
 import StyleDictionary from "style-dictionary";
 
-const sd = new StyleDictionary({
-  "source": [
-    "tokens/primitives/**/*.json",
-    "tokens/theme/**/*.json",
-    "tokens/semantic/**/*.json",
-    "tokens/color-mode/color-mode.light.tokens.json"
-  ],
-  "platforms": {
-    "css-light": {
-      "transformGroup": "css",
-      "buildPath": "build/css/",
-      "files": [
-        {
-          "destination": "standard.light.css",
-          "format": "css/variables"
-        }
-      ]
-    },
-    "css-dark": {
-      "transformGroup": "css",
-      "buildPath": "build/css/",
-      "files": [
-        {
-          "destination": "standard.dark.css",
-          "format": "css/variables"
-        }
-      ]
-    }
-  }
-});
+const COLOR_MODES = ["light", "dark"];
 
-sd.buildAllPlatforms();
+for (const colorMode of COLOR_MODES) {
+  const config = {
+    source: [
+        "tokens/primitives/**/*.json",
+        "tokens/theme/**/*.json",
+        "tokens/semantic/**/*.json",
+        `tokens/color-mode/color-mode.${colorMode}.tokens.json`,
+      ],
+      platforms: {
+        css: {
+          transformGroup: "css",
+          buildPath: "build/css/",
+          files: [
+            {
+              destination: `standard.${colorMode}.css`,
+              format: "css/variables",
+            },
+          ],
+        },
+      },
+    }
+
+  const sd = new StyleDictionary(config);
+  await sd.hasInitialized;
+  await sd.buildAllPlatforms();
+}

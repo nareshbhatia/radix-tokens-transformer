@@ -1,0 +1,14 @@
+{
+  "name": "radix-tokens-transformer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "style-dictionary build --verbose"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "style-dictionary": "^4.3.3"
+  }
+}

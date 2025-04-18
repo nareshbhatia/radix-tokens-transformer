@@ -1,0 +1,28 @@
+{
+  "source": [
+    "tokens/common/**/*.json",
+    "tokens/color-mode/color-mode.light.tokens.json"
+  ],
+  "platforms": {
+    "css-light": {
+      "transformGroup": "css",
+      "buildPath": "build/css/",
+      "files": [
+        {
+          "destination": "standard.light.css",
+          "format": "css/variables"
+        }
+      ]
+    },
+    "css-dark": {
+      "transformGroup": "css",
+      "buildPath": "build/css/",
+      "files": [
+        {
+          "destination": "standard.dark.css",
+          "format": "css/variables"
+        }
+      ]
+    }
+  }
+}

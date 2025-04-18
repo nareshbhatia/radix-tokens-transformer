@@ -1,4 +1,6 @@
-{
+import StyleDictionary from "style-dictionary";
+
+const sd = new StyleDictionary({
   "source": [
     "tokens/primitives/**/*.json",
     "tokens/theme/**/*.json",
@@ -27,4 +29,6 @@
       ]
     }
   }
-}
+});
+
+sd.buildAllPlatforms();

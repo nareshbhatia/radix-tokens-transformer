@@ -1,6 +1,8 @@
 {
   "source": [
-    "tokens/common/**/*.json",
+    "tokens/primitives/**/*.json",
+    "tokens/theme/**/*.json",
+    "tokens/semantic/**/*.json",
     "tokens/color-mode/color-mode.light.tokens.json"
   ],
   "platforms": {

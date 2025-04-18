@@ -1,0 +1,78 @@
+{
+  "Colors": {
+    "accent-surface": {
+      "$type": "color",
+      "$value": "{Color.Accent.a2}"
+    },
+    "white-contrast": {
+      "$type": "color",
+      "$value": "{Color.white}"
+    },
+    "black-contrast": {
+      "$type": "color",
+      "$value": "{Color.black}"
+    }
+  },
+  "accent-surface": {
+    "$type": "color",
+    "$value": "{Color.Accent.a2}"
+  },
+  "white-contrast": {
+    "$type": "color",
+    "$value": "{Color.white}"
+  },
+  "black-contrast": {
+    "$type": "color",
+    "$value": "{Color.black}"
+  },
+  "Space": {
+    "button-height-1": {
+      "$type": "number",
+      "$value": "{Spacing.5}"
+    },
+    "button-height-2": {
+      "$type": "number",
+      "$value": "{Spacing.6}"
+    },
+    "button-height-3": {
+      "$type": "number",
+      "$value": "{Spacing.7}"
+    },
+    "button-height-4": {
+      "$type": "number",
+      "$value": "{Spacing.8}"
+    },
+    "menu-item-height-1": {
+      "$type": "number",
+      "$value": "{Spacing.5}"
+    },
+    "menu-item-height-2": {
+      "$type": "number",
+      "$value": "{Spacing.6}"
+    },
+    "table-cell-min-height-1": {
+      "$type": "number",
+      "$value": 36
+    },
+    "table-cell-min-height-2": {
+      "$type": "number",
+      "$value": 44
+    },
+    "table-cell-min-height-3": {
+      "$type": "number",
+      "$value": "{Spacing.8}"
+    },
+    "table-cell-padding-1": {
+      "$type": "number",
+      "$value": "{Spacing.2}"
+    },
+    "table-cell-padding-2": {
+      "$type": "number",
+      "$value": "{Spacing.3}"
+    },
+    "table-cell-padding-3": {
+      "$type": "number",
+      "$value": "{Spacing.4}"
+    }
+  }
+}

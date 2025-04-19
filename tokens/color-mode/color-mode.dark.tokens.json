@@ -96,6 +96,10 @@
       "a12": {
         "$type": "color",
         "$value": "rgba(252, 253, 255, 0.9373)"
+      },
+      "contrast": {
+        "$type": "color",
+        "$value": "#ffffff"
       }
     },
     "Amber": {
@@ -194,6 +198,10 @@
       "a12": {
         "$type": "color",
         "$value": "#ffe7b3"
+      },
+      "contrast": {
+        "$type": "color",
+        "$value": "#21201c"
       }
     },
     "Red": {
@@ -292,6 +300,10 @@
       "a12": {
         "$type": "color",
         "$value": "#ffd1d9"
+      },
+      "contrast": {
+        "$type": "color",
+        "$value": "#ffffff"
       }
     },
     "Indigo": {
@@ -390,6 +402,10 @@
       "a12": {
         "$type": "color",
         "$value": "#d6e1ff"
+      },
+      "contrast": {
+        "$type": "color",
+        "$value": "#ffffff"
       }
     },
     "Blue": {
@@ -488,6 +504,10 @@
       "a12": {
         "$type": "color",
         "$value": "#c2e6ff"
+      },
+      "contrast": {
+        "$type": "color",
+        "$value": "#ffffff"
       }
     },
     "Green": {
@@ -586,6 +606,10 @@
       "a12": {
         "$type": "color",
         "$value": "rgba(187, 255, 215, 0.9412)"
+      },
+      "contrast": {
+        "$type": "color",
+        "$value": "#ffffff"
       }
     },
     "Sky": {
@@ -684,6 +708,10 @@
       "a12": {
         "$type": "color",
         "$value": "#c2f3ff"
+      },
+      "contrast": {
+        "$type": "color",
+        "$value": "#1c2024"
       }
     }
   },

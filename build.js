@@ -7,9 +7,9 @@ for (const theme of THEMES) {
   for (const colorMode of COLOR_MODES) {
     const config = {
       source: [
+        `tokens/primitives/primitives.${theme}.tokens.json`,
         `tokens/theme/theme.${theme}.tokens.json`,
         `tokens/color-mode/color-mode.${colorMode}.tokens.json`,
-        "tokens/primitives/**/*.json",
         "tokens/semantic/**/*.json",
       ],
       platforms: {

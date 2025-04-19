@@ -96,15 +96,11 @@
       "a12": {
         "$type": "color",
         "$value": "{Color.Red.a12}"
+      },
+      "contrast": {
+        "$type": "color",
+        "$value": "{Color.Red.contrast}"
       }
-    },
-    "white": {
-      "$type": "color",
-      "$value": "#ffffff"
-    },
-    "black": {
-      "$type": "color",
-      "$value": "#1c2024"
     },
     "Neutral": {
       "1": {
@@ -202,6 +198,10 @@
       "a12": {
         "$type": "color",
         "$value": "{Color.Slate.a12}"
+      },
+      "contrast": {
+        "$type": "color",
+        "$value": "{Color.Slate.contrast}"
       }
     },
     "Error": {
@@ -300,6 +300,10 @@
       "a12": {
         "$type": "color",
         "$value": "{Color.Red.a12}"
+      },
+      "contrast": {
+        "$type": "color",
+        "$value": "{Color.Red.contrast}"
       }
     },
     "Success": {
@@ -398,6 +402,10 @@
       "a12": {
         "$type": "color",
         "$value": "{Color.Green.a12}"
+      },
+      "contrast": {
+        "$type": "color",
+        "$value": "{Color.Green.contrast}"
       }
     },
     "Warning": {
@@ -496,6 +504,10 @@
       "a12": {
         "$type": "color",
         "$value": "{Color.Amber.a12}"
+      },
+      "contrast": {
+        "$type": "color",
+        "$value": "{Color.Amber.contrast}"
       }
     },
     "Info": {
@@ -594,48 +606,108 @@
       "a12": {
         "$type": "color",
         "$value": "{Color.Sky.a12}"
+      },
+      "contrast": {
+        "$type": "color",
+        "$value": "{Color.Sky.contrast}"
       }
     }
   },
-  "Font size": {
+  "Font Size": {
     "1": {
       "$type": "number",
-      "$value": 12
+      "$value": "{Font Size.12}"
     },
     "2": {
       "$type": "number",
-      "$value": 14
+      "$value": "{Font Size.14}"
     },
     "3": {
       "$type": "number",
-      "$value": 16
+      "$value": "{Font Size.16}"
     },
     "4": {
       "$type": "number",
-      "$value": 18
+      "$value": "{Font Size.18}"
     },
     "5": {
       "$type": "number",
-      "$value": 20
+      "$value": "{Dimension.20}"
     },
     "6": {
       "$type": "number",
-      "$value": 24
+      "$value": "{Font Size.24}"
     },
     "7": {
       "$type": "number",
-      "$value": 28
+      "$value": "{Font Size.28}"
     },
     "8": {
       "$type": "number",
-      "$value": 35
+      "$value": "{Font Size.35}"
     },
     "9": {
       "$type": "number",
-      "$value": 60
+      "$value": "{Font Size.60}"
     }
   },
-  "Letter spacing": {
+  "Font Weight": {
+    "light": {
+      "$type": "number",
+      "$value": "{Font Weight.300}"
+    },
+    "regular": {
+      "$type": "number",
+      "$value": "{Font Weight.400}"
+    },
+    "medium": {
+      "$type": "number",
+      "$value": "{Font Weight.500}"
+    },
+    "bold": {
+      "$type": "number",
+      "$value": "{Font Weight.700}"
+    }
+  },
+  "Line Height": {
+    "1": {
+      "$type": "number",
+      "$value": "{Line Height.16}"
+    },
+    "2": {
+      "$type": "number",
+      "$value": "{Line Height.20}"
+    },
+    "3": {
+      "$type": "number",
+      "$value": "{Line Height.24}"
+    },
+    "4": {
+      "$type": "number",
+      "$value": "{Line Height.26}"
+    },
+    "5": {
+      "$type": "number",
+      "$value": "{Line Height.28}"
+    },
+    "6": {
+      "$type": "number",
+      "$value": "{Line Height.30}"
+    },
+    "7": {
+      "$type": "number",
+      "$value": "{Line Height.36}"
+    },
+    "8": {
+      "$type": "number",
+      "$value": "{Line Height.40}"
+    },
+    "9": {
+      "$type": "number",
+      "$value": "{Line Height.60}"
+    }
+  },
+  "Letter Spacing": {
     "1": {
       "$type": "number",
       "$value": 0.03999999910593033
@@ -673,134 +745,42 @@
       "$value": -0.4000000059604645
     }
   },
-  "Line height": {
-    "1": {
-      "$type": "number",
-      "$value": 16
-    },
-    "2": {
-      "$type": "number",
-      "$value": 20
-    },
-    "3": {
-      "$type": "number",
-      "$value": 24
-    },
-    "4": {
-      "$type": "number",
-      "$value": 26
-    },
-    "5": {
-      "$type": "number",
-      "$value": 28
-    },
-    "6": {
-      "$type": "number",
-      "$value": 30
-    },
-    "7": {
-      "$type": "number",
-      "$value": 36
-    },
-    "8": {
-      "$type": "number",
-      "$value": 40
-    },
-    "9": {
-      "$type": "number",
-      "$value": 60
-    }
-  },
   "Spacing": {
     "1": {
       "$type": "number",
-      "$value": "{Scaling.100%.1}"
+      "$value": "{Dimension.4}"
     },
     "2": {
       "$type": "number",
-      "$value": "{Scaling.100%.2}"
+      "$value": "{Dimension.8}"
     },
     "3": {
       "$type": "number",
-      "$value": "{Scaling.100%.3}"
+      "$value": "{Dimension.12}"
     },
     "4": {
       "$type": "number",
-      "$value": "{Scaling.100%.4}"
+      "$value": "{Dimension.16}"
     },
     "5": {
       "$type": "number",
-      "$value": "{Scaling.100%.5}"
+      "$value": "{Dimension.24}"
     },
     "6": {
       "$type": "number",
-      "$value": "{Scaling.100%.6}"
+      "$value": "{Dimension.32}"
     },
     "7": {
       "$type": "number",
-      "$value": "{Scaling.100%.7}"
+      "$value": "{Dimension.40}"
     },
     "8": {
       "$type": "number",
-      "$value": "{Scaling.100%.8}"
+      "$value": "{Dimension.48}"
     },
     "9": {
       "$type": "number",
-      "$value": "{Scaling.100%.9}"
-    }
-  },
-  "Radius": {
-    "1": {
-      "$type": "number",
-      "$value": "{Radius.Medium.1}"
-    },
-    "2": {
-      "$type": "number",
-      "$value": "{Radius.Medium.2}"
-    },
-    "3": {
-      "$type": "number",
-      "$value": "{Radius.Medium.3}"
-    },
-    "4": {
-      "$type": "number",
-      "$value": "{Radius.Medium.4}"
-    },
-    "5": {
-      "$type": "number",
-      "$value": "{Radius.Medium.5}"
-    },
-    "6": {
-      "$type": "number",
-      "$value": "{Radius.Medium.6}"
-    },
-    "1-max": {
-      "$type": "number",
-      "$value": "{Radius.Medium.1-max}"
-    },
-    "2-max": {
-      "$type": "number",
-      "$value": "{Radius.Medium.2-max}"
-    },
-    "3-max": {
-      "$type": "number",
-      "$value": "{Radius.Medium.3-max}"
-    },
-    "4-max": {
-      "$type": "number",
-      "$value": "{Radius.Medium.4-max}"
-    },
-    "5-max": {
-      "$type": "number",
-      "$value": "{Radius.Medium.5-max}"
-    },
-    "6-max": {
-      "$type": "number",
-      "$value": "{Radius.Medium.6-max}"
-    },
-    "full": {
-      "$type": "number",
-      "$value": 9999
+      "$value": "{Dimension.48}"
     }
   }
 }

@@ -13,18 +13,6 @@
       "$value": "{Color.black}"
     }
   },
-  "accent-surface": {
-    "$type": "color",
-    "$value": "{Color.Accent.a2}"
-  },
-  "white-contrast": {
-    "$type": "color",
-    "$value": "{Color.white}"
-  },
-  "black-contrast": {
-    "$type": "color",
-    "$value": "{Color.black}"
-  },
   "Space": {
     "button-height-1": {
       "$type": "number",

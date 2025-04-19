@@ -392,6 +392,104 @@
         "$value": "#d6e1ff"
       }
     },
+    "Blue": {
+      "1": {
+        "$type": "color",
+        "$value": "#0d1520"
+      },
+      "2": {
+        "$type": "color",
+        "$value": "#111927"
+      },
+      "3": {
+        "$type": "color",
+        "$value": "#0d2847"
+      },
+      "4": {
+        "$type": "color",
+        "$value": "#003362"
+      },
+      "5": {
+        "$type": "color",
+        "$value": "#004074"
+      },
+      "6": {
+        "$type": "color",
+        "$value": "#104d87"
+      },
+      "7": {
+        "$type": "color",
+        "$value": "#205d9e"
+      },
+      "8": {
+        "$type": "color",
+        "$value": "#2870bd"
+      },
+      "9": {
+        "$type": "color",
+        "$value": "#0090ff"
+      },
+      "10": {
+        "$type": "color",
+        "$value": "#3b9eff"
+      },
+      "11": {
+        "$type": "color",
+        "$value": "#70b8ff"
+      },
+      "12": {
+        "$type": "color",
+        "$value": "#c2e6ff"
+      },
+      "a1": {
+        "$type": "color",
+        "$value": "rgba(0, 77, 242, 0.0667)"
+      },
+      "a2": {
+        "$type": "color",
+        "$value": "rgba(17, 102, 251, 0.0941)"
+      },
+      "a3": {
+        "$type": "color",
+        "$value": "rgba(0, 119, 255, 0.2275)"
+      },
+      "a4": {
+        "$type": "color",
+        "$value": "rgba(0, 117, 255, 0.3412)"
+      },
+      "a5": {
+        "$type": "color",
+        "$value": "rgba(0, 129, 253, 0.4196)"
+      },
+      "a6": {
+        "$type": "color",
+        "$value": "rgba(15, 137, 253, 0.4980)"
+      },
+      "a7": {
+        "$type": "color",
+        "$value": "rgba(42, 145, 254, 0.5961)"
+      },
+      "a8": {
+        "$type": "color",
+        "$value": "rgba(48, 148, 254, 0.7255)"
+      },
+      "a9": {
+        "$type": "color",
+        "$value": "#0090ff"
+      },
+      "a10": {
+        "$type": "color",
+        "$value": "#3b9eff"
+      },
+      "a11": {
+        "$type": "color",
+        "$value": "#70b8ff"
+      },
+      "a12": {
+        "$type": "color",
+        "$value": "#c2e6ff"
+      }
+    },
     "Green": {
       "1": {
         "$type": "color",
@@ -586,6 +684,108 @@
       "a12": {
         "$type": "color",
         "$value": "#c2f3ff"
+      }
+    }
+  },
+  "Overlay": {
+    "Black": {
+      "1": {
+        "$type": "color",
+        "$value": "rgba(0, 0, 0, 0.0500)"
+      },
+      "2": {
+        "$type": "color",
+        "$value": "rgba(0, 0, 0, 0.1000)"
+      },
+      "3": {
+        "$type": "color",
+        "$value": "rgba(0, 0, 0, 0.1500)"
+      },
+      "4": {
+        "$type": "color",
+        "$value": "rgba(0, 0, 0, 0.2000)"
+      },
+      "5": {
+        "$type": "color",
+        "$value": "rgba(0, 0, 0, 0.3000)"
+      },
+      "6": {
+        "$type": "color",
+        "$value": "rgba(0, 0, 0, 0.4000)"
+      },
+      "7": {
+        "$type": "color",
+        "$value": "rgba(0, 0, 0, 0.5000)"
+      },
+      "8": {
+        "$type": "color",
+        "$value": "rgba(0, 0, 0, 0.6000)"
+      },
+      "9": {
+        "$type": "color",
+        "$value": "rgba(0, 0, 0, 0.7000)"
+      },
+      "10": {
+        "$type": "color",
+        "$value": "rgba(0, 0, 0, 0.8000)"
+      },
+      "11": {
+        "$type": "color",
+        "$value": "rgba(0, 0, 0, 0.9000)"
+      },
+      "12": {
+        "$type": "color",
+        "$value": "rgba(0, 0, 0, 0.9500)"
+      }
+    },
+    "White": {
+      "1": {
+        "$type": "color",
+        "$value": "rgba(255, 255, 255, 0.0500)"
+      },
+      "2": {
+        "$type": "color",
+        "$value": "rgba(255, 255, 255, 0.1000)"
+      },
+      "3": {
+        "$type": "color",
+        "$value": "rgba(255, 255, 255, 0.1500)"
+      },
+      "4": {
+        "$type": "color",
+        "$value": "rgba(255, 255, 255, 0.2000)"
+      },
+      "5": {
+        "$type": "color",
+        "$value": "rgba(255, 255, 255, 0.3000)"
+      },
+      "6": {
+        "$type": "color",
+        "$value": "rgba(255, 255, 255, 0.4000)"
+      },
+      "7": {
+        "$type": "color",
+        "$value": "rgba(255, 255, 255, 0.5000)"
+      },
+      "8": {
+        "$type": "color",
+        "$value": "rgba(255, 255, 255, 0.6000)"
+      },
+      "9": {
+        "$type": "color",
+        "$value": "rgba(255, 255, 255, 0.7000)"
+      },
+      "10": {
+        "$type": "color",
+        "$value": "rgba(255, 255, 255, 0.8000)"
+      },
+      "11": {
+        "$type": "color",
+        "$value": "rgba(255, 255, 255, 0.9000)"
+      },
+      "12": {
+        "$type": "color",
+        "$value": "rgba(255, 255, 255, 0.9500)"
       }
     }
   }

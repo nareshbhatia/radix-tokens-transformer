@@ -1,14 +1,16 @@
 import StyleDictionary from "style-dictionary";
 
+const THEMES = ["twilight", "corporate", "velvet"];
 const COLOR_MODES = ["light", "dark"];
 
-for (const colorMode of COLOR_MODES) {
-  const config = {
-    source: [
-        "tokens/primitives/**/*.json",
-        "tokens/theme/**/*.json",
-        "tokens/semantic/**/*.json",
+for (const theme of THEMES) {
+  for (const colorMode of COLOR_MODES) {
+    const config = {
+      source: [
+        `tokens/theme/theme.${theme}.tokens.json`,
         `tokens/color-mode/color-mode.${colorMode}.tokens.json`,
+        "tokens/primitives/**/*.json",
+        "tokens/semantic/**/*.json",
       ],
       platforms: {
         css: {
@@ -16,15 +18,16 @@ for (const colorMode of COLOR_MODES) {
           buildPath: "build/css/",
           files: [
             {
-              destination: `standard.${colorMode}.css`,
+              destination: `${theme}.${colorMode}.css`,
               format: "css/variables",
             },
           ],
         },
       },
-    }
+    };
 
-  const sd = new StyleDictionary(config);
-  await sd.hasInitialized;
-  await sd.buildAllPlatforms();
+    const sd = new StyleDictionary(config, { verbosity: 'verbose' });
+    await sd.hasInitialized;
+    await sd.buildAllPlatforms();
+  }
 }

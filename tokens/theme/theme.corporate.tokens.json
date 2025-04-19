@@ -1,0 +1,806 @@
+{
+  "Color": {
+    "Accent": {
+      "1": {
+        "$type": "color",
+        "$value": "{Color.Blue.1}"
+      },
+      "2": {
+        "$type": "color",
+        "$value": "{Color.Blue.2}"
+      },
+      "3": {
+        "$type": "color",
+        "$value": "{Color.Blue.3}"
+      },
+      "4": {
+        "$type": "color",
+        "$value": "{Color.Blue.4}"
+      },
+      "5": {
+        "$type": "color",
+        "$value": "{Color.Blue.5}"
+      },
+      "6": {
+        "$type": "color",
+        "$value": "{Color.Blue.6}"
+      },
+      "7": {
+        "$type": "color",
+        "$value": "{Color.Blue.7}"
+      },
+      "8": {
+        "$type": "color",
+        "$value": "{Color.Blue.8}"
+      },
+      "9": {
+        "$type": "color",
+        "$value": "{Color.Blue.9}"
+      },
+      "10": {
+        "$type": "color",
+        "$value": "{Color.Blue.10}"
+      },
+      "11": {
+        "$type": "color",
+        "$value": "{Color.Blue.11}"
+      },
+      "12": {
+        "$type": "color",
+        "$value": "{Color.Blue.12}"
+      },
+      "a1": {
+        "$type": "color",
+        "$value": "{Color.Blue.a1}"
+      },
+      "a2": {
+        "$type": "color",
+        "$value": "{Color.Blue.a2}"
+      },
+      "a3": {
+        "$type": "color",
+        "$value": "{Color.Blue.a3}"
+      },
+      "a4": {
+        "$type": "color",
+        "$value": "{Color.Blue.a4}"
+      },
+      "a5": {
+        "$type": "color",
+        "$value": "{Color.Blue.a5}"
+      },
+      "a6": {
+        "$type": "color",
+        "$value": "{Color.Blue.a6}"
+      },
+      "a7": {
+        "$type": "color",
+        "$value": "{Color.Blue.a7}"
+      },
+      "a8": {
+        "$type": "color",
+        "$value": "{Color.Blue.a8}"
+      },
+      "a9": {
+        "$type": "color",
+        "$value": "{Color.Blue.a9}"
+      },
+      "a10": {
+        "$type": "color",
+        "$value": "{Color.Blue.a10}"
+      },
+      "a11": {
+        "$type": "color",
+        "$value": "{Color.Blue.a11}"
+      },
+      "a12": {
+        "$type": "color",
+        "$value": "{Color.Blue.a12}"
+      }
+    },
+    "white": {
+      "$type": "color",
+      "$value": "#ffffff"
+    },
+    "black": {
+      "$type": "color",
+      "$value": "#1c2024"
+    },
+    "Neutral": {
+      "1": {
+        "$type": "color",
+        "$value": "{Color.Slate.1}"
+      },
+      "2": {
+        "$type": "color",
+        "$value": "{Color.Slate.2}"
+      },
+      "3": {
+        "$type": "color",
+        "$value": "{Color.Slate.3}"
+      },
+      "4": {
+        "$type": "color",
+        "$value": "{Color.Slate.4}"
+      },
+      "5": {
+        "$type": "color",
+        "$value": "{Color.Slate.5}"
+      },
+      "6": {
+        "$type": "color",
+        "$value": "{Color.Slate.6}"
+      },
+      "7": {
+        "$type": "color",
+        "$value": "{Color.Slate.7}"
+      },
+      "8": {
+        "$type": "color",
+        "$value": "{Color.Slate.8}"
+      },
+      "9": {
+        "$type": "color",
+        "$value": "{Color.Slate.9}"
+      },
+      "10": {
+        "$type": "color",
+        "$value": "{Color.Slate.10}"
+      },
+      "11": {
+        "$type": "color",
+        "$value": "{Color.Slate.11}"
+      },
+      "12": {
+        "$type": "color",
+        "$value": "{Color.Slate.12}"
+      },
+      "a1": {
+        "$type": "color",
+        "$value": "{Color.Slate.a1}"
+      },
+      "a2": {
+        "$type": "color",
+        "$value": "{Color.Slate.a2}"
+      },
+      "a3": {
+        "$type": "color",
+        "$value": "{Color.Slate.a3}"
+      },
+      "a4": {
+        "$type": "color",
+        "$value": "{Color.Slate.a4}"
+      },
+      "a5": {
+        "$type": "color",
+        "$value": "{Color.Slate.a5}"
+      },
+      "a6": {
+        "$type": "color",
+        "$value": "{Color.Slate.a6}"
+      },
+      "a7": {
+        "$type": "color",
+        "$value": "{Color.Slate.a7}"
+      },
+      "a8": {
+        "$type": "color",
+        "$value": "{Color.Slate.a8}"
+      },
+      "a9": {
+        "$type": "color",
+        "$value": "{Color.Slate.a9}"
+      },
+      "a10": {
+        "$type": "color",
+        "$value": "{Color.Slate.a10}"
+      },
+      "a11": {
+        "$type": "color",
+        "$value": "{Color.Slate.a11}"
+      },
+      "a12": {
+        "$type": "color",
+        "$value": "{Color.Slate.a12}"
+      }
+    },
+    "Error": {
+      "1": {
+        "$type": "color",
+        "$value": "{Color.Red.1}"
+      },
+      "2": {
+        "$type": "color",
+        "$value": "{Color.Red.2}"
+      },
+      "3": {
+        "$type": "color",
+        "$value": "{Color.Red.3}"
+      },
+      "4": {
+        "$type": "color",
+        "$value": "{Color.Red.4}"
+      },
+      "5": {
+        "$type": "color",
+        "$value": "{Color.Red.5}"
+      },
+      "6": {
+        "$type": "color",
+        "$value": "{Color.Red.6}"
+      },
+      "7": {
+        "$type": "color",
+        "$value": "{Color.Red.7}"
+      },
+      "8": {
+        "$type": "color",
+        "$value": "{Color.Red.8}"
+      },
+      "9": {
+        "$type": "color",
+        "$value": "{Color.Red.9}"
+      },
+      "10": {
+        "$type": "color",
+        "$value": "{Color.Red.10}"
+      },
+      "11": {
+        "$type": "color",
+        "$value": "{Color.Red.11}"
+      },
+      "12": {
+        "$type": "color",
+        "$value": "{Color.Red.12}"
+      },
+      "a1": {
+        "$type": "color",
+        "$value": "{Color.Red.a1}"
+      },
+      "a2": {
+        "$type": "color",
+        "$value": "{Color.Red.a2}"
+      },
+      "a3": {
+        "$type": "color",
+        "$value": "{Color.Red.a3}"
+      },
+      "a4": {
+        "$type": "color",
+        "$value": "{Color.Red.a4}"
+      },
+      "a5": {
+        "$type": "color",
+        "$value": "{Color.Red.a5}"
+      },
+      "a6": {
+        "$type": "color",
+        "$value": "{Color.Red.a6}"
+      },
+      "a7": {
+        "$type": "color",
+        "$value": "{Color.Red.a7}"
+      },
+      "a8": {
+        "$type": "color",
+        "$value": "{Color.Red.a8}"
+      },
+      "a9": {
+        "$type": "color",
+        "$value": "{Color.Red.a9}"
+      },
+      "a10": {
+        "$type": "color",
+        "$value": "{Color.Red.a10}"
+      },
+      "a11": {
+        "$type": "color",
+        "$value": "{Color.Red.a11}"
+      },
+      "a12": {
+        "$type": "color",
+        "$value": "{Color.Red.a12}"
+      }
+    },
+    "Success": {
+      "1": {
+        "$type": "color",
+        "$value": "{Color.Green.1}"
+      },
+      "2": {
+        "$type": "color",
+        "$value": "{Color.Green.2}"
+      },
+      "3": {
+        "$type": "color",
+        "$value": "{Color.Green.3}"
+      },
+      "4": {
+        "$type": "color",
+        "$value": "{Color.Green.4}"
+      },
+      "5": {
+        "$type": "color",
+        "$value": "{Color.Green.5}"
+      },
+      "6": {
+        "$type": "color",
+        "$value": "{Color.Green.6}"
+      },
+      "7": {
+        "$type": "color",
+        "$value": "{Color.Green.7}"
+      },
+      "8": {
+        "$type": "color",
+        "$value": "{Color.Green.8}"
+      },
+      "9": {
+        "$type": "color",
+        "$value": "{Color.Green.9}"
+      },
+      "10": {
+        "$type": "color",
+        "$value": "{Color.Green.10}"
+      },
+      "11": {
+        "$type": "color",
+        "$value": "{Color.Green.11}"
+      },
+      "12": {
+        "$type": "color",
+        "$value": "{Color.Green.12}"
+      },
+      "a1": {
+        "$type": "color",
+        "$value": "{Color.Green.a1}"
+      },
+      "a2": {
+        "$type": "color",
+        "$value": "{Color.Green.a2}"
+      },
+      "a3": {
+        "$type": "color",
+        "$value": "{Color.Green.a3}"
+      },
+      "a4": {
+        "$type": "color",
+        "$value": "{Color.Green.a4}"
+      },
+      "a5": {
+        "$type": "color",
+        "$value": "{Color.Green.a5}"
+      },
+      "a6": {
+        "$type": "color",
+        "$value": "{Color.Green.a6}"
+      },
+      "a7": {
+        "$type": "color",
+        "$value": "{Color.Green.a7}"
+      },
+      "a8": {
+        "$type": "color",
+        "$value": "{Color.Green.a8}"
+      },
+      "a9": {
+        "$type": "color",
+        "$value": "{Color.Green.a9}"
+      },
+      "a10": {
+        "$type": "color",
+        "$value": "{Color.Green.a10}"
+      },
+      "a11": {
+        "$type": "color",
+        "$value": "{Color.Green.a11}"
+      },
+      "a12": {
+        "$type": "color",
+        "$value": "{Color.Green.a12}"
+      }
+    },
+    "Warning": {
+      "1": {
+        "$type": "color",
+        "$value": "{Color.Amber.1}"
+      },
+      "2": {
+        "$type": "color",
+        "$value": "{Color.Amber.2}"
+      },
+      "3": {
+        "$type": "color",
+        "$value": "{Color.Amber.3}"
+      },
+      "4": {
+        "$type": "color",
+        "$value": "{Color.Amber.4}"
+      },
+      "5": {
+        "$type": "color",
+        "$value": "{Color.Amber.5}"
+      },
+      "6": {
+        "$type": "color",
+        "$value": "{Color.Amber.6}"
+      },
+      "7": {
+        "$type": "color",
+        "$value": "{Color.Amber.7}"
+      },
+      "8": {
+        "$type": "color",
+        "$value": "{Color.Amber.8}"
+      },
+      "9": {
+        "$type": "color",
+        "$value": "{Color.Amber.9}"
+      },
+      "10": {
+        "$type": "color",
+        "$value": "{Color.Amber.10}"
+      },
+      "11": {
+        "$type": "color",
+        "$value": "{Color.Amber.11}"
+      },
+      "12": {
+        "$type": "color",
+        "$value": "{Color.Amber.12}"
+      },
+      "a1": {
+        "$type": "color",
+        "$value": "{Color.Amber.a1}"
+      },
+      "a2": {
+        "$type": "color",
+        "$value": "{Color.Amber.a2}"
+      },
+      "a3": {
+        "$type": "color",
+        "$value": "{Color.Amber.a3}"
+      },
+      "a4": {
+        "$type": "color",
+        "$value": "{Color.Amber.a4}"
+      },
+      "a5": {
+        "$type": "color",
+        "$value": "{Color.Amber.a5}"
+      },
+      "a6": {
+        "$type": "color",
+        "$value": "{Color.Amber.a6}"
+      },
+      "a7": {
+        "$type": "color",
+        "$value": "{Color.Amber.a7}"
+      },
+      "a8": {
+        "$type": "color",
+        "$value": "{Color.Amber.a8}"
+      },
+      "a9": {
+        "$type": "color",
+        "$value": "{Color.Amber.a9}"
+      },
+      "a10": {
+        "$type": "color",
+        "$value": "{Color.Amber.a10}"
+      },
+      "a11": {
+        "$type": "color",
+        "$value": "{Color.Amber.a11}"
+      },
+      "a12": {
+        "$type": "color",
+        "$value": "{Color.Amber.a12}"
+      }
+    },
+    "Info": {
+      "1": {
+        "$type": "color",
+        "$value": "{Color.Sky.1}"
+      },
+      "2": {
+        "$type": "color",
+        "$value": "{Color.Sky.2}"
+      },
+      "3": {
+        "$type": "color",
+        "$value": "{Color.Sky.3}"
+      },
+      "4": {
+        "$type": "color",
+        "$value": "{Color.Sky.4}"
+      },
+      "5": {
+        "$type": "color",
+        "$value": "{Color.Sky.5}"
+      },
+      "6": {
+        "$type": "color",
+        "$value": "{Color.Sky.6}"
+      },
+      "7": {
+        "$type": "color",
+        "$value": "{Color.Sky.7}"
+      },
+      "8": {
+        "$type": "color",
+        "$value": "{Color.Sky.8}"
+      },
+      "9": {
+        "$type": "color",
+        "$value": "{Color.Sky.9}"
+      },
+      "10": {
+        "$type": "color",
+        "$value": "{Color.Sky.10}"
+      },
+      "11": {
+        "$type": "color",
+        "$value": "{Color.Sky.11}"
+      },
+      "12": {
+        "$type": "color",
+        "$value": "{Color.Sky.12}"
+      },
+      "a1": {
+        "$type": "color",
+        "$value": "{Color.Sky.a1}"
+      },
+      "a2": {
+        "$type": "color",
+        "$value": "{Color.Sky.a2}"
+      },
+      "a3": {
+        "$type": "color",
+        "$value": "{Color.Sky.a3}"
+      },
+      "a4": {
+        "$type": "color",
+        "$value": "{Color.Sky.a4}"
+      },
+      "a5": {
+        "$type": "color",
+        "$value": "{Color.Sky.a5}"
+      },
+      "a6": {
+        "$type": "color",
+        "$value": "{Color.Sky.a6}"
+      },
+      "a7": {
+        "$type": "color",
+        "$value": "{Color.Sky.a7}"
+      },
+      "a8": {
+        "$type": "color",
+        "$value": "{Color.Sky.a8}"
+      },
+      "a9": {
+        "$type": "color",
+        "$value": "{Color.Sky.a9}"
+      },
+      "a10": {
+        "$type": "color",
+        "$value": "{Color.Sky.a10}"
+      },
+      "a11": {
+        "$type": "color",
+        "$value": "{Color.Sky.a11}"
+      },
+      "a12": {
+        "$type": "color",
+        "$value": "{Color.Sky.a12}"
+      }
+    }
+  },
+  "Font size": {
+    "1": {
+      "$type": "number",
+      "$value": 12
+    },
+    "2": {
+      "$type": "number",
+      "$value": 14
+    },
+    "3": {
+      "$type": "number",
+      "$value": 16
+    },
+    "4": {
+      "$type": "number",
+      "$value": 18
+    },
+    "5": {
+      "$type": "number",
+      "$value": 20
+    },
+    "6": {
+      "$type": "number",
+      "$value": 24
+    },
+    "7": {
+      "$type": "number",
+      "$value": 28
+    },
+    "8": {
+      "$type": "number",
+      "$value": 35
+    },
+    "9": {
+      "$type": "number",
+      "$value": 60
+    }
+  },
+  "Letter spacing": {
+    "1": {
+      "$type": "number",
+      "$value": 0.03999999910593033
+    },
+    "2": {
+      "$type": "number",
+      "$value": 0
+    },
+    "3": {
+      "$type": "number",
+      "$value": 0
+    },
+    "4": {
+      "$type": "number",
+      "$value": -0.03999999910593033
+    },
+    "5": {
+      "$type": "number",
+      "$value": -0.07999999821186066
+    },
+    "6": {
+      "$type": "number",
+      "$value": -0.10000000149011612
+    },
+    "7": {
+      "$type": "number",
+      "$value": -0.11999999731779099
+    },
+    "8": {
+      "$type": "number",
+      "$value": -0.1599999964237213
+    },
+    "9": {
+      "$type": "number",
+      "$value": -0.4000000059604645
+    }
+  },
+  "Line height": {
+    "1": {
+      "$type": "number",
+      "$value": 16
+    },
+    "2": {
+      "$type": "number",
+      "$value": 20
+    },
+    "3": {
+      "$type": "number",
+      "$value": 24
+    },
+    "4": {
+      "$type": "number",
+      "$value": 26
+    },
+    "5": {
+      "$type": "number",
+      "$value": 28
+    },
+    "6": {
+      "$type": "number",
+      "$value": 30
+    },
+    "7": {
+      "$type": "number",
+      "$value": 36
+    },
+    "8": {
+      "$type": "number",
+      "$value": 40
+    },
+    "9": {
+      "$type": "number",
+      "$value": 60
+    }
+  },
+  "Spacing": {
+    "1": {
+      "$type": "number",
+      "$value": "{Scaling.100%.1}"
+    },
+    "2": {
+      "$type": "number",
+      "$value": "{Scaling.100%.2}"
+    },
+    "3": {
+      "$type": "number",
+      "$value": "{Scaling.100%.3}"
+    },
+    "4": {
+      "$type": "number",
+      "$value": "{Scaling.100%.4}"
+    },
+    "5": {
+      "$type": "number",
+      "$value": "{Scaling.100%.5}"
+    },
+    "6": {
+      "$type": "number",
+      "$value": "{Scaling.100%.6}"
+    },
+    "7": {
+      "$type": "number",
+      "$value": "{Scaling.100%.7}"
+    },
+    "8": {
+      "$type": "number",
+      "$value": "{Scaling.100%.8}"
+    },
+    "9": {
+      "$type": "number",
+      "$value": "{Scaling.100%.9}"
+    }
+  },
+  "Radius": {
+    "1": {
+      "$type": "number",
+      "$value": "{Radius.Medium.1}"
+    },
+    "2": {
+      "$type": "number",
+      "$value": "{Radius.Medium.2}"
+    },
+    "3": {
+      "$type": "number",
+      "$value": "{Radius.Medium.3}"
+    },
+    "4": {
+      "$type": "number",
+      "$value": "{Radius.Medium.4}"
+    },
+    "5": {
+      "$type": "number",
+      "$value": "{Radius.Medium.5}"
+    },
+    "6": {
+      "$type": "number",
+      "$value": "{Radius.Medium.6}"
+    },
+    "1-max": {
+      "$type": "number",
+      "$value": "{Radius.Medium.1-max}"
+    },
+    "2-max": {
+      "$type": "number",
+      "$value": "{Radius.Medium.2-max}"
+    },
+    "3-max": {
+      "$type": "number",
+      "$value": "{Radius.Medium.3-max}"
+    },
+    "4-max": {
+      "$type": "number",
+      "$value": "{Radius.Medium.4-max}"
+    },
+    "5-max": {
+      "$type": "number",
+      "$value": "{Radius.Medium.5-max}"
+    },
+    "6-max": {
+      "$type": "number",
+      "$value": "{Radius.Medium.6-max}"
+    },
+    "full": {
+      "$type": "number",
+      "$value": 9999
+    }
+  }
+}

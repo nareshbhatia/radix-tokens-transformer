@@ -46,7 +46,7 @@ const fileMappings = [
 ];
 
 // Process all files
-async function transformTokensFromFigma() {
+async function transformFigmaTokensToW3C() {
   for (const mapping of fileMappings) {
     try {
       // Ensure destination directory exists
@@ -56,7 +56,7 @@ async function transformTokensFromFigma() {
       }
 
       // Run the node command
-      const command = `node figvar-to-w3c.js ${mapping.source} ${mapping.destination}`;
+      const command = `npx figvar-to-w3c ${mapping.source} ${mapping.destination} ./figvar-to-w3c-rules/rules.json`;
       const { stdout, stderr } = await execAsync(command);
       
       if (stderr) {
@@ -71,4 +71,4 @@ async function transformTokensFromFigma() {
 }
 
 // Run the script
-transformTokensFromFigma().catch(console.error); 
+transformFigmaTokensToW3C().catch(console.error); 

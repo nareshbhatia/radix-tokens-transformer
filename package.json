@@ -5,8 +5,8 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "build": "node build.js",
-    "transform-tokens-from-figma": "node transform-tokens-from-figma.js"
+    "transform-figma-tokens-to-w3c": "node src/transform-figma-tokens-to-w3c.js",
+    "transform-w3c-tokens-to-platforms": "node src/transform-w3c-tokens-to-platforms.js"
   },
   "author": "",
   "license": "ISC",

@@ -626,39 +626,39 @@
   "Font Size": {
     "1": {
       "$type": "dimension",
-      "$value": "{Font Size.primitive-12}px"
+      "$value": "{Font Size.primitive-12}"
     },
     "2": {
       "$type": "dimension",
-      "$value": "NaNrem"
+      "$value": "{Font Size.primitive-14}"
     },
     "3": {
       "$type": "dimension",
-      "$value": "NaNrem"
+      "$value": "{Font Size.primitive-16}"
     },
     "4": {
       "$type": "dimension",
-      "$value": "NaNrem"
+      "$value": "{Font Size.primitive-18}"
     },
     "5": {
       "$type": "dimension",
-      "$value": "NaNrem"
+      "$value": "{Font Size.primitive-20}"
     },
     "6": {
       "$type": "dimension",
-      "$value": "NaNrem"
+      "$value": "{Font Size.primitive-24}"
     },
     "7": {
       "$type": "dimension",
-      "$value": "NaNrem"
+      "$value": "{Font Size.primitive-28}"
     },
     "8": {
       "$type": "dimension",
-      "$value": "NaNrem"
+      "$value": "{Font Size.primitive-35}"
     },
     "9": {
       "$type": "dimension",
-      "$value": "NaNrem"
+      "$value": "{Font Size.primitive-60}"
     }
   },
   "Font Weight": {
@@ -682,39 +682,39 @@
   "Line Height": {
     "1": {
       "$type": "dimension",
-      "$value": "{Line Height.primitive-16}px"
+      "$value": "{Line Height.primitive-16}"
     },
     "2": {
       "$type": "dimension",
-      "$value": "NaNrem"
+      "$value": "{Line Height.primitive-20}"
     },
     "3": {
       "$type": "dimension",
-      "$value": "NaNrem"
+      "$value": "{Line Height.primitive-24}"
     },
     "4": {
       "$type": "dimension",
-      "$value": "NaNrem"
+      "$value": "{Line Height.primitive-26}"
     },
     "5": {
       "$type": "dimension",
-      "$value": "NaNrem"
+      "$value": "{Line Height.primitive-28}"
     },
     "6": {
       "$type": "dimension",
-      "$value": "NaNrem"
+      "$value": "{Line Height.primitive-30}"
     },
     "7": {
       "$type": "dimension",
-      "$value": "NaNrem"
+      "$value": "{Line Height.primitive-36}"
     },
     "8": {
       "$type": "dimension",
-      "$value": "NaNrem"
+      "$value": "{Line Height.primitive-40}"
     },
     "9": {
       "$type": "dimension",
-      "$value": "NaNrem"
+      "$value": "{Line Height.primitive-60}"
     }
   },
   "Letter Spacing": {
@@ -757,74 +757,74 @@
   },
   "Spacing": {
     "1": {
-      "$type": "number",
+      "$type": "dimension",
       "$value": "{Dimension.4}"
     },
     "2": {
-      "$type": "number",
+      "$type": "dimension",
       "$value": "{Dimension.8}"
     },
     "3": {
-      "$type": "number",
+      "$type": "dimension",
       "$value": "{Dimension.12}"
     },
     "4": {
-      "$type": "number",
+      "$type": "dimension",
       "$value": "{Dimension.16}"
     },
     "5": {
-      "$type": "number",
+      "$type": "dimension",
       "$value": "{Dimension.24}"
     },
     "6": {
-      "$type": "number",
+      "$type": "dimension",
       "$value": "{Dimension.32}"
     },
     "7": {
-      "$type": "number",
+      "$type": "dimension",
       "$value": "{Dimension.40}"
     },
     "8": {
-      "$type": "number",
+      "$type": "dimension",
       "$value": "{Dimension.48}"
     },
     "9": {
-      "$type": "number",
+      "$type": "dimension",
       "$value": "{Dimension.64}"
     }
   },
   "Radius": {
     "none": {
       "$type": "dimension",
-      "$value": "{Radius.primitive-0}px"
+      "$value": "{Radius.primitive-0}"
     },
     "sm": {
       "$type": "dimension",
-      "$value": "{Radius.primitive-2}px"
+      "$value": "{Radius.primitive-2}"
     },
     "default": {
       "$type": "dimension",
-      "$value": "{Radius.primitive-4}px"
+      "$value": "{Radius.primitive-4}"
     },
     "md": {
       "$type": "dimension",
-      "$value": "{Radius.primitive-6}px"
+      "$value": "{Radius.primitive-6}"
     },
     "lg": {
       "$type": "dimension",
-      "$value": "{Radius.primitive-8}px"
+      "$value": "{Radius.primitive-8}"
     },
     "xl": {
       "$type": "dimension",
-      "$value": "{Radius.primitive-12}px"
+      "$value": "{Radius.primitive-12}"
     },
     "2xl": {
       "$type": "dimension",
-      "$value": "{Radius.primitive-16}px"
+      "$value": "{Radius.primitive-16}"
     },
     "full": {
       "$type": "dimension",
-      "$value": "{Radius.primitive-full}px"
+      "$value": "{Radius.primitive-full}"
     }
   }
 }

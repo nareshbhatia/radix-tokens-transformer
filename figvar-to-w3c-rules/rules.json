@@ -1,0 +1,122 @@
+[
+  {
+    "applyToGroup": "Dimension",
+    "typeRule": {
+      "outputType": "dimension"
+    },
+    "valueRules": [
+      {
+        "valueRuleType": "DesignTokenNumberValueRule",
+        "applyToValues": [0, 1],
+        "appendUnit": "px"
+      },
+      {
+        "valueRuleType": "DesignTokenNumberValueRule",
+        "valueConverter": "pxToRem",
+        "appendUnit": "rem"
+      }
+    ]
+  },
+  {
+    "applyToGroup": "Spacing",
+    "typeRule": {
+      "outputType": "dimension"
+    },
+    "valueRules": [
+      {
+        "valueRuleType": "DesignTokenNumberValueRule",
+        "applyToValues": [0, 1],
+        "appendUnit": "px"
+      },
+      {
+        "valueRuleType": "DesignTokenNumberValueRule",
+        "valueConverter": "pxToRem",
+        "appendUnit": "rem"
+      }
+    ]
+  },
+  {
+    "applyToGroup": "Padding",
+    "typeRule": {
+      "outputType": "dimension"
+    },
+    "valueRules": [
+      {
+        "valueRuleType": "DesignTokenNumberValueRule",
+        "applyToValues": [0, 1],
+        "appendUnit": "px"
+      },
+      {
+        "valueRuleType": "DesignTokenNumberValueRule",
+        "valueConverter": "pxToRem",
+        "appendUnit": "rem"
+      }
+    ]
+  },
+  {
+    "applyToGroup": "Font Size",
+    "typeRule": {
+      "outputType": "dimension"
+    },
+    "valueRules": [
+      {
+        "valueRuleType": "DesignTokenNumberValueRule",
+        "applyToValues": [0, 1],
+        "appendUnit": "px"
+      },
+      {
+        "valueRuleType": "DesignTokenNumberValueRule",
+        "valueConverter": "pxToRem",
+        "appendUnit": "rem"
+      }
+    ]
+  },
+  {
+    "applyToGroup": "Line Height",
+    "typeRule": {
+      "outputType": "dimension"
+    },
+    "valueRules": [
+      {
+        "valueRuleType": "DesignTokenNumberValueRule",
+        "applyToValues": [0, 1],
+        "appendUnit": "px"
+      },
+      {
+        "valueRuleType": "DesignTokenNumberValueRule",
+        "valueConverter": "pxToRem",
+        "appendUnit": "rem"
+      }
+    ]
+  },
+  {
+    "applyToGroup": "Radius",
+    "typeRule": {
+      "outputType": "dimension"
+    },
+    "valueRules": [
+      {
+        "valueRuleType": "DesignTokenNumberValueRule",
+        "applyToValues": [0, 1, 9999],
+        "appendUnit": "px"
+      },
+      {
+        "valueRuleType": "DesignTokenNumberValueRule",
+        "valueConverter": "pxToRem",
+        "appendUnit": "rem"
+      }
+    ]
+  },
+  {
+    "applyToGroup": "Font Weight",
+    "typeRule": {
+      "outputType": "fontWeight"
+    }
+  },
+  {
+    "applyToGroup": "Font Family",
+    "typeRule": {
+      "outputType": "fontFamily"
+    }
+  }
+]

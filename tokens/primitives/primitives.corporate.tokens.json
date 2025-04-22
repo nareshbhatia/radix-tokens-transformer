@@ -252,31 +252,31 @@
     },
     "primitive-2": {
       "$type": "dimension",
-      "$value": "2px"
+      "$value": "0.125rem"
     },
     "primitive-4": {
       "$type": "dimension",
-      "$value": "4px"
+      "$value": "0.25rem"
     },
     "primitive-6": {
       "$type": "dimension",
-      "$value": "6px"
+      "$value": "0.375rem"
     },
     "primitive-8": {
       "$type": "dimension",
-      "$value": "8px"
+      "$value": "0.5rem"
     },
     "primitive-12": {
       "$type": "dimension",
-      "$value": "12px"
+      "$value": "0.75rem"
     },
     "primitive-16": {
       "$type": "dimension",
-      "$value": "16px"
+      "$value": "1rem"
     },
     "primitive-24": {
       "$type": "dimension",
-      "$value": "24px"
+      "$value": "1.5rem"
     },
     "primitive-full": {
       "$type": "dimension",

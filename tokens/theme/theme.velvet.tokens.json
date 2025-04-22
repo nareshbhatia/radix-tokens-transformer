@@ -613,98 +613,108 @@
       }
     }
   },
+  "Font Family": {
+    "sans": {
+      "$type": "fontFamily",
+      "$value": "{Font Family.primitive-sans}"
+    },
+    "mono": {
+      "$type": "fontFamily",
+      "$value": "{Font Family.primitive-mono}"
+    }
+  },
   "Font Size": {
     "1": {
-      "$type": "number",
-      "$value": "{Font Size.12}"
+      "$type": "dimension",
+      "$value": "{Font Size.primitive-12}px"
     },
     "2": {
-      "$type": "number",
-      "$value": "{Font Size.14}"
+      "$type": "dimension",
+      "$value": "NaNrem"
     },
     "3": {
-      "$type": "number",
-      "$value": "{Font Size.16}"
+      "$type": "dimension",
+      "$value": "NaNrem"
     },
     "4": {
-      "$type": "number",
-      "$value": "{Font Size.18}"
+      "$type": "dimension",
+      "$value": "NaNrem"
     },
     "5": {
-      "$type": "number",
-      "$value": "{Dimension.20}"
+      "$type": "dimension",
+      "$value": "NaNrem"
     },
     "6": {
-      "$type": "number",
-      "$value": "{Font Size.24}"
+      "$type": "dimension",
+      "$value": "NaNrem"
     },
     "7": {
-      "$type": "number",
-      "$value": "{Font Size.28}"
+      "$type": "dimension",
+      "$value": "NaNrem"
     },
     "8": {
-      "$type": "number",
-      "$value": "{Font Size.35}"
+      "$type": "dimension",
+      "$value": "NaNrem"
     },
     "9": {
-      "$type": "number",
-      "$value": "{Font Size.60}"
+      "$type": "dimension",
+      "$value": "NaNrem"
     }
   },
   "Font Weight": {
     "light": {
-      "$type": "number",
+      "$type": "fontWeight",
       "$value": "{Font Weight.300}"
     },
     "regular": {
-      "$type": "number",
+      "$type": "fontWeight",
       "$value": "{Font Weight.400}"
     },
     "medium": {
-      "$type": "number",
+      "$type": "fontWeight",
       "$value": "{Font Weight.500}"
     },
     "bold": {
-      "$type": "number",
+      "$type": "fontWeight",
       "$value": "{Font Weight.700}"
     }
   },
   "Line Height": {
     "1": {
-      "$type": "number",
-      "$value": "{Line Height.16}"
+      "$type": "dimension",
+      "$value": "{Line Height.primitive-16}px"
     },
     "2": {
-      "$type": "number",
-      "$value": "{Line Height.20}"
+      "$type": "dimension",
+      "$value": "NaNrem"
     },
     "3": {
-      "$type": "number",
-      "$value": "{Line Height.24}"
+      "$type": "dimension",
+      "$value": "NaNrem"
     },
     "4": {
-      "$type": "number",
-      "$value": "{Line Height.26}"
+      "$type": "dimension",
+      "$value": "NaNrem"
     },
     "5": {
-      "$type": "number",
-      "$value": "{Line Height.28}"
+      "$type": "dimension",
+      "$value": "NaNrem"
     },
     "6": {
-      "$type": "number",
-      "$value": "{Line Height.30}"
+      "$type": "dimension",
+      "$value": "NaNrem"
     },
     "7": {
-      "$type": "number",
-      "$value": "{Line Height.36}"
+      "$type": "dimension",
+      "$value": "NaNrem"
     },
     "8": {
-      "$type": "number",
-      "$value": "{Line Height.40}"
+      "$type": "dimension",
+      "$value": "NaNrem"
     },
     "9": {
-      "$type": "number",
-      "$value": "{Line Height.60}"
+      "$type": "dimension",
+      "$value": "NaNrem"
     }
   },
   "Letter Spacing": {
@@ -781,6 +791,40 @@
     "9": {
       "$type": "number",
       "$value": "{Dimension.48}"
+    }
+  },
+  "Radius": {
+    "none": {
+      "$type": "dimension",
+      "$value": "{Radius.primitive-0}px"
+    },
+    "sm": {
+      "$type": "dimension",
+      "$value": "{Radius.primitive-2}px"
+    },
+    "default": {
+      "$type": "dimension",
+      "$value": "{Radius.primitive-4}px"
+    },
+    "md": {
+      "$type": "dimension",
+      "$value": "{Radius.primitive-6}px"
+    },
+    "lg": {
+      "$type": "dimension",
+      "$value": "{Radius.primitive-8}px"
+    },
+    "xl": {
+      "$type": "dimension",
+      "$value": "{Radius.primitive-12}px"
+    },
+    "2xl": {
+      "$type": "dimension",
+      "$value": "{Radius.primitive-16}px"
+    },
+    "full": {
+      "$type": "dimension",
+      "$value": "{Radius.primitive-full}px"
     }
   }
 }

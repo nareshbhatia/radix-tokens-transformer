@@ -615,106 +615,106 @@
   },
   "Font Family": {
     "sans": {
-      "$type": "fontFamily",
+      "$type": "string",
       "$value": "{Font Family.primitive-sans}"
     },
     "mono": {
-      "$type": "fontFamily",
+      "$type": "string",
       "$value": "{Font Family.primitive-mono}"
     }
   },
   "Font Size": {
     "1": {
-      "$type": "dimension",
-      "$value": "{Font Size.primitive-12}px"
+      "$type": "number",
+      "$value": "{Font Size.primitive-12}"
     },
     "2": {
-      "$type": "dimension",
-      "$value": "NaNrem"
+      "$type": "number",
+      "$value": "{Font Size.primitive-14}"
     },
     "3": {
-      "$type": "dimension",
-      "$value": "NaNrem"
+      "$type": "number",
+      "$value": "{Font Size.primitive-16}"
     },
     "4": {
-      "$type": "dimension",
-      "$value": "NaNrem"
+      "$type": "number",
+      "$value": "{Font Size.primitive-18}"
     },
     "5": {
-      "$type": "dimension",
-      "$value": "NaNrem"
+      "$type": "number",
+      "$value": "{Font Size.primitive-20}"
     },
     "6": {
-      "$type": "dimension",
-      "$value": "NaNrem"
+      "$type": "number",
+      "$value": "{Font Size.primitive-24}"
     },
     "7": {
-      "$type": "dimension",
-      "$value": "NaNrem"
+      "$type": "number",
+      "$value": "{Font Size.primitive-28}"
     },
     "8": {
-      "$type": "dimension",
-      "$value": "NaNrem"
+      "$type": "number",
+      "$value": "{Font Size.primitive-35}"
     },
     "9": {
-      "$type": "dimension",
-      "$value": "NaNrem"
+      "$type": "number",
+      "$value": "{Font Size.primitive-60}"
     }
   },
   "Font Weight": {
     "light": {
-      "$type": "fontWeight",
+      "$type": "number",
       "$value": "{Font Weight.300}"
     },
     "regular": {
-      "$type": "fontWeight",
+      "$type": "number",
       "$value": "{Font Weight.400}"
     },
     "medium": {
-      "$type": "fontWeight",
+      "$type": "number",
       "$value": "{Font Weight.500}"
     },
     "bold": {
-      "$type": "fontWeight",
+      "$type": "number",
       "$value": "{Font Weight.700}"
     }
   },
   "Line Height": {
     "1": {
-      "$type": "dimension",
-      "$value": "{Line Height.primitive-16}px"
+      "$type": "number",
+      "$value": "{Line Height.primitive-16}"
     },
     "2": {
-      "$type": "dimension",
-      "$value": "NaNrem"
+      "$type": "number",
+      "$value": "{Line Height.primitive-20}"
     },
     "3": {
-      "$type": "dimension",
-      "$value": "NaNrem"
+      "$type": "number",
+      "$value": "{Line Height.primitive-24}"
     },
     "4": {
-      "$type": "dimension",
-      "$value": "NaNrem"
+      "$type": "number",
+      "$value": "{Line Height.primitive-26}"
     },
     "5": {
-      "$type": "dimension",
-      "$value": "NaNrem"
+      "$type": "number",
+      "$value": "{Line Height.primitive-28}"
     },
     "6": {
-      "$type": "dimension",
-      "$value": "NaNrem"
+      "$type": "number",
+      "$value": "{Line Height.primitive-30}"
     },
     "7": {
-      "$type": "dimension",
-      "$value": "NaNrem"
+      "$type": "number",
+      "$value": "{Line Height.primitive-36}"
     },
     "8": {
-      "$type": "dimension",
-      "$value": "NaNrem"
+      "$type": "number",
+      "$value": "{Line Height.primitive-40}"
     },
     "9": {
-      "$type": "dimension",
-      "$value": "NaNrem"
+      "$type": "number",
+      "$value": "{Line Height.primitive-60}"
     }
   },
   "Letter Spacing": {
@@ -795,36 +795,36 @@
   },
   "Radius": {
     "none": {
-      "$type": "dimension",
-      "$value": "{Radius.primitive-0}px"
+      "$type": "number",
+      "$value": "{Radius.primitive-0}"
     },
     "sm": {
-      "$type": "dimension",
-      "$value": "{Radius.primitive-2}px"
+      "$type": "number",
+      "$value": "{Radius.primitive-2}"
     },
     "default": {
-      "$type": "dimension",
-      "$value": "{Radius.primitive-4}px"
+      "$type": "number",
+      "$value": "{Radius.primitive-4}"
     },
     "md": {
-      "$type": "dimension",
-      "$value": "{Radius.primitive-6}px"
+      "$type": "number",
+      "$value": "{Radius.primitive-6}"
     },
     "lg": {
-      "$type": "dimension",
-      "$value": "{Radius.primitive-8}px"
+      "$type": "number",
+      "$value": "{Radius.primitive-8}"
     },
     "xl": {
-      "$type": "dimension",
-      "$value": "{Radius.primitive-12}px"
+      "$type": "number",
+      "$value": "{Radius.primitive-12}"
     },
     "2xl": {
-      "$type": "dimension",
-      "$value": "{Radius.primitive-16}px"
+      "$type": "number",
+      "$value": "{Radius.primitive-16}"
     },
     "full": {
-      "$type": "dimension",
-      "$value": "{Radius.primitive-full}px"
+      "$type": "number",
+      "$value": "{Radius.primitive-full}"
     }
   }
 }

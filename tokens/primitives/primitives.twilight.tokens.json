@@ -1,280 +1,286 @@
 {
   "Dimension": {
     "0": {
-      "$type": "number",
-      "$value": 0
+      "$type": "dimension",
+      "$value": "0px"
     },
     "1": {
-      "$type": "number",
-      "$value": 1
+      "$type": "dimension",
+      "$value": "1px"
     },
     "2": {
-      "$type": "number",
-      "$value": 2
+      "$type": "dimension",
+      "$value": "0.125rem"
     },
     "4": {
-      "$type": "number",
-      "$value": 4
+      "$type": "dimension",
+      "$value": "0.25rem"
     },
     "6": {
-      "$type": "number",
-      "$value": 6
+      "$type": "dimension",
+      "$value": "0.375rem"
     },
     "8": {
-      "$type": "number",
-      "$value": 8
+      "$type": "dimension",
+      "$value": "0.5rem"
     },
     "10": {
-      "$type": "number",
-      "$value": 10
+      "$type": "dimension",
+      "$value": "0.625rem"
     },
     "12": {
-      "$type": "number",
-      "$value": 12
+      "$type": "dimension",
+      "$value": "0.75rem"
     },
     "14": {
-      "$type": "number",
-      "$value": 14
+      "$type": "dimension",
+      "$value": "0.875rem"
     },
     "16": {
-      "$type": "number",
-      "$value": 16
+      "$type": "dimension",
+      "$value": "1rem"
     },
     "20": {
-      "$type": "number",
-      "$value": 20
+      "$type": "dimension",
+      "$value": "1.25rem"
     },
     "24": {
-      "$type": "number",
-      "$value": 24
+      "$type": "dimension",
+      "$value": "1.5rem"
     },
     "28": {
-      "$type": "number",
-      "$value": 28
+      "$type": "dimension",
+      "$value": "1.75rem"
     },
     "32": {
-      "$type": "number",
-      "$value": 32
+      "$type": "dimension",
+      "$value": "2rem"
     },
     "36": {
-      "$type": "number",
-      "$value": 36
+      "$type": "dimension",
+      "$value": "2.25rem"
     },
     "40": {
-      "$type": "number",
-      "$value": 40
+      "$type": "dimension",
+      "$value": "2.5rem"
     },
     "44": {
-      "$type": "number",
-      "$value": 44
+      "$type": "dimension",
+      "$value": "2.75rem"
     },
     "48": {
-      "$type": "number",
-      "$value": 48
+      "$type": "dimension",
+      "$value": "3rem"
     },
     "56": {
-      "$type": "number",
-      "$value": 56
+      "$type": "dimension",
+      "$value": "3.5rem"
     },
     "64": {
-      "$type": "number",
-      "$value": 64
+      "$type": "dimension",
+      "$value": "4rem"
     },
     "80": {
-      "$type": "number",
-      "$value": 80
+      "$type": "dimension",
+      "$value": "5rem"
     },
     "96": {
-      "$type": "number",
-      "$value": 96
+      "$type": "dimension",
+      "$value": "6rem"
     },
     "112": {
-      "$type": "number",
-      "$value": 112
+      "$type": "dimension",
+      "$value": "7rem"
     },
     "128": {
-      "$type": "number",
-      "$value": 128
+      "$type": "dimension",
+      "$value": "8rem"
     },
     "144": {
-      "$type": "number",
-      "$value": 144
+      "$type": "dimension",
+      "$value": "9rem"
     },
     "160": {
-      "$type": "number",
-      "$value": 160
+      "$type": "dimension",
+      "$value": "10rem"
     },
     "176": {
-      "$type": "number",
-      "$value": 176
+      "$type": "dimension",
+      "$value": "11rem"
     },
     "192": {
-      "$type": "number",
-      "$value": 192
+      "$type": "dimension",
+      "$value": "12rem"
     },
     "208": {
-      "$type": "number",
-      "$value": 208
+      "$type": "dimension",
+      "$value": "13rem"
     },
     "224": {
-      "$type": "number",
-      "$value": 224
+      "$type": "dimension",
+      "$value": "14rem"
     },
     "240": {
-      "$type": "number",
-      "$value": 240
+      "$type": "dimension",
+      "$value": "15rem"
     },
     "256": {
-      "$type": "number",
-      "$value": 256
+      "$type": "dimension",
+      "$value": "16rem"
     },
     "288": {
-      "$type": "number",
-      "$value": 288
+      "$type": "dimension",
+      "$value": "18rem"
     },
     "320": {
-      "$type": "number",
-      "$value": 320
+      "$type": "dimension",
+      "$value": "20rem"
     },
     "384": {
-      "$type": "number",
-      "$value": 384
+      "$type": "dimension",
+      "$value": "24rem"
+    }
+  },
+  "Font Family": {
+    "primitive-sans": {
+      "$type": "fontFamily",
+      "$value": "Fraunces"
+    },
+    "primitive-mono": {
+      "$type": "fontFamily",
+      "$value": "JetBrains Mono"
     }
   },
   "Font Size": {
-    "12": {
-      "$type": "number",
-      "$value": 12
+    "primitive-12": {
+      "$type": "dimension",
+      "$value": "0.75rem"
     },
-    "14": {
-      "$type": "number",
-      "$value": 14
+    "primitive-14": {
+      "$type": "dimension",
+      "$value": "0.875rem"
     },
-    "16": {
-      "$type": "number",
-      "$value": 16
+    "primitive-16": {
+      "$type": "dimension",
+      "$value": "1rem"
     },
-    "18": {
-      "$type": "number",
-      "$value": 18
+    "primitive-18": {
+      "$type": "dimension",
+      "$value": "1.125rem"
     },
-    "20": {
-      "$type": "number",
-      "$value": 20
+    "primitive-20": {
+      "$type": "dimension",
+      "$value": "1.25rem"
     },
-    "24": {
-      "$type": "number",
-      "$value": 24
+    "primitive-24": {
+      "$type": "dimension",
+      "$value": "1.5rem"
     },
-    "28": {
-      "$type": "number",
-      "$value": 28
+    "primitive-28": {
+      "$type": "dimension",
+      "$value": "1.75rem"
     },
-    "35": {
-      "$type": "number",
-      "$value": 35
+    "primitive-35": {
+      "$type": "dimension",
+      "$value": "2.1875rem"
     },
-    "60": {
-      "$type": "number",
-      "$value": 60
+    "primitive-60": {
+      "$type": "dimension",
+      "$value": "3.75rem"
     }
   },
   "Font Weight": {
     "300": {
-      "$type": "number",
+      "$type": "fontWeight",
       "$value": 300
     },
     "400": {
-      "$type": "number",
+      "$type": "fontWeight",
       "$value": 400
     },
     "500": {
-      "$type": "number",
+      "$type": "fontWeight",
       "$value": 500
     },
     "700": {
-      "$type": "number",
+      "$type": "fontWeight",
       "$value": 700
     }
   },
   "Line Height": {
-    "16": {
-      "$type": "number",
-      "$value": 16
+    "primitive-16": {
+      "$type": "dimension",
+      "$value": "1rem"
     },
-    "20": {
-      "$type": "number",
-      "$value": 20
+    "primitive-20": {
+      "$type": "dimension",
+      "$value": "1.25rem"
     },
-    "24": {
-      "$type": "number",
-      "$value": 24
+    "primitive-24": {
+      "$type": "dimension",
+      "$value": "1.5rem"
     },
-    "26": {
-      "$type": "number",
-      "$value": 26
+    "primitive-26": {
+      "$type": "dimension",
+      "$value": "1.625rem"
     },
-    "28": {
-      "$type": "number",
-      "$value": 28
+    "primitive-28": {
+      "$type": "dimension",
+      "$value": "1.75rem"
     },
-    "30": {
-      "$type": "number",
-      "$value": 30
+    "primitive-30": {
+      "$type": "dimension",
+      "$value": "1.875rem"
     },
-    "36": {
-      "$type": "number",
-      "$value": 36
+    "primitive-36": {
+      "$type": "dimension",
+      "$value": "2.25rem"
     },
-    "40": {
-      "$type": "number",
-      "$value": 40
+    "primitive-40": {
+      "$type": "dimension",
+      "$value": "2.5rem"
     },
-    "60": {
-      "$type": "number",
-      "$value": 60
+    "primitive-60": {
+      "$type": "dimension",
+      "$value": "3.75rem"
     }
   },
   "Radius": {
-    "0": {
-      "$type": "number",
-      "$value": 0
+    "primitive-0": {
+      "$type": "dimension",
+      "$value": "0px"
     },
-    "3": {
-      "$type": "number",
-      "$value": 3
+    "primitive-2": {
+      "$type": "dimension",
+      "$value": "2px"
     },
-    "4": {
-      "$type": "number",
-      "$value": 4
+    "primitive-4": {
+      "$type": "dimension",
+      "$value": "4px"
     },
-    "6": {
-      "$type": "number",
-      "$value": 6
+    "primitive-6": {
+      "$type": "dimension",
+      "$value": "6px"
     },
-    "8": {
-      "$type": "number",
-      "$value": 8
+    "primitive-8": {
+      "$type": "dimension",
+      "$value": "8px"
     },
-    "12": {
-      "$type": "number",
-      "$value": 12
+    "primitive-12": {
+      "$type": "dimension",
+      "$value": "12px"
     },
-    "16": {
-      "$type": "number",
-      "$value": 16
+    "primitive-16": {
+      "$type": "dimension",
+      "$value": "16px"
     },
-    "24": {
-      "$type": "number",
-      "$value": 24
+    "primitive-24": {
+      "$type": "dimension",
+      "$value": "24px"
     },
-    "32": {
-      "$type": "number",
-      "$value": 32
-    },
-    "full": {
-      "$type": "number",
-      "$value": 9999
+    "primitive-full": {
+      "$type": "dimension",
+      "$value": "9999px"
     }
   }
 }

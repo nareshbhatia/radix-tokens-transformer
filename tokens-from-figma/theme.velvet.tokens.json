@@ -3,103 +3,103 @@
     "Accent": {
       "1": {
         "$type": "color",
-        "$value": "{Color.Blue.1}"
+        "$value": "{Color.Red.1}"
       },
       "2": {
         "$type": "color",
-        "$value": "{Color.Blue.2}"
+        "$value": "{Color.Red.2}"
       },
       "3": {
         "$type": "color",
-        "$value": "{Color.Blue.3}"
+        "$value": "{Color.Red.3}"
       },
       "4": {
         "$type": "color",
-        "$value": "{Color.Blue.4}"
+        "$value": "{Color.Red.4}"
       },
       "5": {
         "$type": "color",
-        "$value": "{Color.Blue.5}"
+        "$value": "{Color.Red.5}"
       },
       "6": {
         "$type": "color",
-        "$value": "{Color.Blue.6}"
+        "$value": "{Color.Red.6}"
       },
       "7": {
         "$type": "color",
-        "$value": "{Color.Blue.7}"
+        "$value": "{Color.Red.7}"
       },
       "8": {
         "$type": "color",
-        "$value": "{Color.Blue.8}"
+        "$value": "{Color.Red.8}"
       },
       "9": {
         "$type": "color",
-        "$value": "{Color.Blue.9}"
+        "$value": "{Color.Red.9}"
       },
       "10": {
         "$type": "color",
-        "$value": "{Color.Blue.10}"
+        "$value": "{Color.Red.10}"
       },
       "11": {
         "$type": "color",
-        "$value": "{Color.Blue.11}"
+        "$value": "{Color.Red.11}"
       },
       "12": {
         "$type": "color",
-        "$value": "{Color.Blue.12}"
+        "$value": "{Color.Red.12}"
       },
       "a1": {
         "$type": "color",
-        "$value": "{Color.Blue.a1}"
+        "$value": "{Color.Red.a1}"
       },
       "a2": {
         "$type": "color",
-        "$value": "{Color.Blue.a2}"
+        "$value": "{Color.Red.a2}"
       },
       "a3": {
         "$type": "color",
-        "$value": "{Color.Blue.a3}"
+        "$value": "{Color.Red.a3}"
       },
       "a4": {
         "$type": "color",
-        "$value": "{Color.Blue.a4}"
+        "$value": "{Color.Red.a4}"
       },
       "a5": {
         "$type": "color",
-        "$value": "{Color.Blue.a5}"
+        "$value": "{Color.Red.a5}"
       },
       "a6": {
         "$type": "color",
-        "$value": "{Color.Blue.a6}"
+        "$value": "{Color.Red.a6}"
       },
       "a7": {
         "$type": "color",
-        "$value": "{Color.Blue.a7}"
+        "$value": "{Color.Red.a7}"
       },
       "a8": {
         "$type": "color",
-        "$value": "{Color.Blue.a8}"
+        "$value": "{Color.Red.a8}"
       },
       "a9": {
         "$type": "color",
-        "$value": "{Color.Blue.a9}"
+        "$value": "{Color.Red.a10}"
       },
       "a10": {
         "$type": "color",
-        "$value": "{Color.Blue.a10}"
+        "$value": "{Color.Red.a10}"
       },
       "a11": {
         "$type": "color",
-        "$value": "{Color.Blue.a11}"
+        "$value": "{Color.Red.a11}"
       },
       "a12": {
         "$type": "color",
-        "$value": "{Color.Blue.a12}"
+        "$value": "{Color.Red.a12}"
       },
       "contrast": {
         "$type": "color",
-        "$value": "{Color.Blue.contrast}"
+        "$value": "{Color.Red.contrast}"
       }
     },
     "Neutral": {
@@ -615,106 +615,106 @@
   },
   "Font Family": {
     "sans": {
-      "$type": "fontFamily",
+      "$type": "string",
       "$value": "{Font Family.primitive-sans}"
     },
     "mono": {
-      "$type": "fontFamily",
+      "$type": "string",
       "$value": "{Font Family.primitive-mono}"
     }
   },
   "Font Size": {
     "1": {
-      "$type": "dimension",
-      "$value": "{Font Size.primitive-12}px"
+      "$type": "number",
+      "$value": "{Font Size.primitive-12}"
     },
     "2": {
-      "$type": "dimension",
-      "$value": "NaNrem"
+      "$type": "number",
+      "$value": "{Font Size.primitive-14}"
     },
     "3": {
-      "$type": "dimension",
-      "$value": "NaNrem"
+      "$type": "number",
+      "$value": "{Font Size.primitive-16}"
     },
     "4": {
-      "$type": "dimension",
-      "$value": "NaNrem"
+      "$type": "number",
+      "$value": "{Font Size.primitive-18}"
     },
     "5": {
-      "$type": "dimension",
-      "$value": "NaNrem"
+      "$type": "number",
+      "$value": "{Dimension.20}"
     },
     "6": {
-      "$type": "dimension",
-      "$value": "NaNrem"
+      "$type": "number",
+      "$value": "{Font Size.primitive-24}"
     },
     "7": {
-      "$type": "dimension",
-      "$value": "NaNrem"
+      "$type": "number",
+      "$value": "{Font Size.primitive-28}"
     },
     "8": {
-      "$type": "dimension",
-      "$value": "NaNrem"
+      "$type": "number",
+      "$value": "{Font Size.primitive-35}"
     },
     "9": {
-      "$type": "dimension",
-      "$value": "NaNrem"
+      "$type": "number",
+      "$value": "{Font Size.primitive-60}"
     }
   },
   "Font Weight": {
     "light": {
-      "$type": "fontWeight",
+      "$type": "number",
       "$value": "{Font Weight.300}"
     },
     "regular": {
-      "$type": "fontWeight",
+      "$type": "number",
       "$value": "{Font Weight.400}"
     },
     "medium": {
-      "$type": "fontWeight",
+      "$type": "number",
       "$value": "{Font Weight.500}"
     },
     "bold": {
-      "$type": "fontWeight",
+      "$type": "number",
       "$value": "{Font Weight.700}"
     }
   },
   "Line Height": {
     "1": {
-      "$type": "dimension",
-      "$value": "{Line Height.primitive-16}px"
+      "$type": "number",
+      "$value": "{Line Height.primitive-16}"
     },
     "2": {
-      "$type": "dimension",
-      "$value": "NaNrem"
+      "$type": "number",
+      "$value": "{Line Height.primitive-20}"
     },
     "3": {
-      "$type": "dimension",
-      "$value": "NaNrem"
+      "$type": "number",
+      "$value": "{Line Height.primitive-24}"
     },
     "4": {
-      "$type": "dimension",
-      "$value": "NaNrem"
+      "$type": "number",
+      "$value": "{Line Height.primitive-26}"
     },
     "5": {
-      "$type": "dimension",
-      "$value": "NaNrem"
+      "$type": "number",
+      "$value": "{Line Height.primitive-28}"
     },
     "6": {
-      "$type": "dimension",
-      "$value": "NaNrem"
+      "$type": "number",
+      "$value": "{Line Height.primitive-30}"
     },
     "7": {
-      "$type": "dimension",
-      "$value": "NaNrem"
+      "$type": "number",
+      "$value": "{Line Height.primitive-36}"
     },
     "8": {
-      "$type": "dimension",
-      "$value": "NaNrem"
+      "$type": "number",
+      "$value": "{Line Height.primitive-40}"
     },
     "9": {
-      "$type": "dimension",
-      "$value": "NaNrem"
+      "$type": "number",
+      "$value": "{Line Height.primitive-60}"
     }
   },
   "Letter Spacing": {
@@ -795,36 +795,36 @@
   },
   "Radius": {
     "none": {
-      "$type": "dimension",
-      "$value": "{Radius.primitive-0}px"
+      "$type": "number",
+      "$value": "{Radius.primitive-0}"
     },
     "sm": {
-      "$type": "dimension",
-      "$value": "{Radius.primitive-2}px"
+      "$type": "number",
+      "$value": "{Radius.primitive-2}"
     },
     "default": {
-      "$type": "dimension",
-      "$value": "{Radius.primitive-4}px"
+      "$type": "number",
+      "$value": "{Radius.primitive-4}"
     },
     "md": {
-      "$type": "dimension",
-      "$value": "{Radius.primitive-6}px"
+      "$type": "number",
+      "$value": "{Radius.primitive-6}"
     },
     "lg": {
-      "$type": "dimension",
-      "$value": "{Radius.primitive-8}px"
+      "$type": "number",
+      "$value": "{Radius.primitive-8}"
     },
     "xl": {
-      "$type": "dimension",
-      "$value": "{Radius.primitive-12}px"
+      "$type": "number",
+      "$value": "{Radius.primitive-12}"
     },
     "2xl": {
-      "$type": "dimension",
-      "$value": "{Radius.primitive-16}px"
+      "$type": "number",
+      "$value": "{Radius.primitive-16}"
     },
     "full": {
-      "$type": "dimension",
-      "$value": "{Radius.primitive-full}px"
+      "$type": "number",
+      "$value": "{Radius.primitive-full}"
     }
   }
 }

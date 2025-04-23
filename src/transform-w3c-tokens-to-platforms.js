@@ -22,6 +22,17 @@ for (const theme of THEMES) {
               format: "css/variables",
             },
           ],
+          prefix: "rt"
+        },
+        js: {
+          transformGroup: "js",
+          buildPath: "build/js/",
+          files: [
+            {
+              destination: `${theme}.${colorMode}.js`,
+              format: "javascript/es6",
+            },
+          ],
         },
       },
     };

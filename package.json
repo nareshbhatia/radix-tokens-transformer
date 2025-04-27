@@ -1,16 +1,35 @@
 {
   "name": "radix-tokens-transformer",
   "version": "1.0.0",
-  "description": "",
   "type": "module",
-  "main": "index.js",
   "scripts": {
-    "transform-figma-tokens-to-w3c": "node src/transform-figma-tokens-to-w3c.js",
-    "transform-w3c-tokens-to-platforms": "node src/transform-w3c-tokens-to-platforms.js"
+    "build": "rimraf dist && tsc",
+    "codegen": "run-s _figma-tokens-to-w3c _w3c-tokens-to-platforms",
+    "clean": "rimraf node_modules dist",
+    "dev": "tsx watch codegen/generate-legacy-tokens/index.ts",
+    "fix": "run-s _lint:fix _format:fix",
+    "lint": "run-s _lint _format",
+    "_format": "prettier --list-different '*.{js,ts,json,md}' 'src/**/*.{css,js,ts,json,md}' 'codegen/**/*.{css,js,ts,json,md}'",
+    "_format:fix": "npm run _format -- --write",
+    "_lint": "eslint '**/*.{js,jsx,ts,tsx}'",
+    "_lint:fix": "npm run _lint -- --fix",
+    "test": "echo No tests in this package",
+    "_figma-tokens-to-w3c": "node dist/transform-figma-tokens-to-w3c",
+    "_generate-legacy-tokens": "node dist/generate-legacy-tokens",
+    "_w3c-tokens-to-platforms": "node dist/transform-w3c-tokens-to-platforms"
   },
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
-    "style-dictionary": "^4.3.3"
+    "@code-shaper/eslint-config": "^2.*",
+    "@types/node": "^22.15.2",
+    "@typescript-eslint/eslint-plugin": "^7.18.0",
+    "@typescript-eslint/parser": "^7.18.0",
+    "eslint": "^8.57.1",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^3.5.3",
+    "rimraf": "^6.0.1",
+    "style-dictionary": "^4.4.0",
+    "tslib": "2.8.1",
+    "tsx": "^4.19.3",
+    "typescript": "~5.8.3"
   }
 }

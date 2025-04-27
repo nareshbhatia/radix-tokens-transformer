@@ -1,11 +1,9 @@
 import StyleDictionary from 'style-dictionary';
-import type { TransformedToken } from 'style-dictionary';
 import { transformTypes } from 'style-dictionary/enums';
 
 const THEMES = ['twilight', 'corporate', 'velvet'];
 const COLOR_MODES = ['light', 'dark'];
 
-const TRANSFORM_NAME_MODIFIER_RGB = 'name/modifier/rgb';
 const TRANSFORM_COLOR_RGB_COMMA_SEPARATED = 'color/rgb-comma-separated';
 
 /*
@@ -61,38 +59,28 @@ const TRANSFORM_COLOR_RGB_COMMA_SEPARATED = 'color/rgb-comma-separated';
  * }
  */
 
-// Returns true if the token is a hex color
-function isHexColor(token: TransformedToken) {
-  return (
-    token.$type === 'color' && /^#[0-9A-F]{6}$/i.test(token.$value as string)
-  );
-}
-
-// Adds "-rgb" suffix to token name if it is a hex color
-StyleDictionary.registerTransform({
-  name: TRANSFORM_NAME_MODIFIER_RGB,
-  type: transformTypes.name,
-  filter: isHexColor,
-  transform: (token) => `${token.name}-rgb`,
-});
-
-// Transforms hex colors to rgb colors
+// Transforms colors with `-rgb` suffix to rgb colors
 StyleDictionary.registerTransform({
   name: TRANSFORM_COLOR_RGB_COMMA_SEPARATED,
   type: transformTypes.value,
-  filter: isHexColor,
+  filter: (token) => token.name.endsWith('-rgb'),
+  transitive: true,
   transform: (token) => {
-    // check if token.$value is a string
-    if (typeof token.$value !== 'string') {
-      return token.$value as unknown;
+    // Check if token.$value is a string and a hex color
+    if (
+      typeof token.$value === 'string' &&
+      /^#[0-9A-F]{6}$/i.test(token.$value)
+    ) {
+      // Convert hex to RGB
+      const hex = token.$value.replace('#', '');
+      const r = parseInt(hex.substring(0, 2), 16);
+      const g = parseInt(hex.substring(2, 4), 16);
+      const b = parseInt(hex.substring(4, 6), 16);
+      return `${r},${g},${b}`;
     }
 
-    // Convert hex to RGB
-    const hex = token.$value.replace('#', '');
-    const r = parseInt(hex.substring(0, 2), 16);
-    const g = parseInt(hex.substring(2, 4), 16);
-    const b = parseInt(hex.substring(4, 6), 16);
-    return `${r}, ${g}, ${b}`;
+    // Return the token value as is
+    return token.$value as unknown;
   },
 });
 
@@ -108,7 +96,7 @@ for (const theme of THEMES) {
       platforms: {
         css: {
           transformGroup: 'css',
-          // transforms: [TRANSFORM_NAME_MODIFIER_RGB, TRANSFORM_COLOR_RGB_COMMA_SEPARATED],
+          transforms: [TRANSFORM_COLOR_RGB_COMMA_SEPARATED],
           buildPath: 'src/css/',
           files: [
             {

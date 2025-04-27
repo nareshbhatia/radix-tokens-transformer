@@ -120,7 +120,7 @@ for (const theme of THEMES) {
         },
         ts: {
           transformGroup: 'js',
-          buildPath: 'srs/ts/',
+          buildPath: 'src/ts/',
           files: [
             {
               destination: `${theme}.${colorMode}.ts`,

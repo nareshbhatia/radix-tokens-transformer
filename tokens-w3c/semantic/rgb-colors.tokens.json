@@ -1,0 +1,312 @@
+{
+  "Color": {
+    "Accent": {
+      "1-rgb": {
+        "$type": "color",
+        "$value": "{Color.Accent.1}"
+      },
+      "2-rgb": {
+        "$type": "color",
+        "$value": "{Color.Accent.2}"
+      },
+      "3-rgb": {
+        "$type": "color",
+        "$value": "{Color.Accent.3}"
+      },
+      "4-rgb": {
+        "$type": "color",
+        "$value": "{Color.Accent.4}"
+      },
+      "5-rgb": {
+        "$type": "color",
+        "$value": "{Color.Accent.5}"
+      },
+      "6-rgb": {
+        "$type": "color",
+        "$value": "{Color.Accent.6}"
+      },
+      "7-rgb": {
+        "$type": "color",
+        "$value": "{Color.Accent.7}"
+      },
+      "8-rgb": {
+        "$type": "color",
+        "$value": "{Color.Accent.8}"
+      },
+      "9-rgb": {
+        "$type": "color",
+        "$value": "{Color.Accent.9}"
+      },
+      "10-rgb": {
+        "$type": "color",
+        "$value": "{Color.Accent.10}"
+      },
+      "11-rgb": {
+        "$type": "color",
+        "$value": "{Color.Accent.11}"
+      },
+      "12-rgb": {
+        "$type": "color",
+        "$value": "{Color.Accent.12}"
+      }
+    },
+    "Neutral": {
+      "1-rgb": {
+        "$type": "color",
+        "$value": "{Color.Neutral.1}"
+      },
+      "2-rgb": {
+        "$type": "color",
+        "$value": "{Color.Neutral.2}"
+      },
+      "3-rgb": {
+        "$type": "color",
+        "$value": "{Color.Neutral.3}"
+      },
+      "4-rgb": {
+        "$type": "color",
+        "$value": "{Color.Neutral.4}"
+      },
+      "5-rgb": {
+        "$type": "color",
+        "$value": "{Color.Neutral.5}"
+      },
+      "6-rgb": {
+        "$type": "color",
+        "$value": "{Color.Neutral.6}"
+      },
+      "7-rgb": {
+        "$type": "color",
+        "$value": "{Color.Neutral.7}"
+      },
+      "8-rgb": {
+        "$type": "color",
+        "$value": "{Color.Neutral.8}"
+      },
+      "9-rgb": {
+        "$type": "color",
+        "$value": "{Color.Neutral.9}"
+      },
+      "10-rgb": {
+        "$type": "color",
+        "$value": "{Color.Neutral.10}"
+      },
+      "11-rgb": {
+        "$type": "color",
+        "$value": "{Color.Neutral.11}"
+      },
+      "12-rgb": {
+        "$type": "color",
+        "$value": "{Color.Neutral.12}"
+      }
+    },
+    "Error": {
+      "1-rgb": {
+        "$type": "color",
+        "$value": "{Color.Error.1}"
+      },
+      "2-rgb": {
+        "$type": "color",
+        "$value": "{Color.Error.2}"
+      },
+      "3-rgb": {
+        "$type": "color",
+        "$value": "{Color.Error.3}"
+      },
+      "4-rgb": {
+        "$type": "color",
+        "$value": "{Color.Error.4}"
+      },
+      "5-rgb": {
+        "$type": "color",
+        "$value": "{Color.Error.5}"
+      },
+      "6-rgb": {
+        "$type": "color",
+        "$value": "{Color.Error.6}"
+      },
+      "7-rgb": {
+        "$type": "color",
+        "$value": "{Color.Error.7}"
+      },
+      "8-rgb": {
+        "$type": "color",
+        "$value": "{Color.Error.8}"
+      },
+      "9-rgb": {
+        "$type": "color",
+        "$value": "{Color.Error.9}"
+      },
+      "10-rgb": {
+        "$type": "color",
+        "$value": "{Color.Error.10}"
+      },
+      "11-rgb": {
+        "$type": "color",
+        "$value": "{Color.Error.11}"
+      },
+      "12-rgb": {
+        "$type": "color",
+        "$value": "{Color.Error.12}"
+      }
+    },
+    "Success": {
+      "1-rgb": {
+        "$type": "color",
+        "$value": "{Color.Success.1}"
+      },
+      "2-rgb": {
+        "$type": "color",
+        "$value": "{Color.Success.2}"
+      },
+      "3-rgb": {
+        "$type": "color",
+        "$value": "{Color.Success.3}"
+      },
+      "4-rgb": {
+        "$type": "color",
+        "$value": "{Color.Success.4}"
+      },
+      "5-rgb": {
+        "$type": "color",
+        "$value": "{Color.Success.5}"
+      },
+      "6-rgb": {
+        "$type": "color",
+        "$value": "{Color.Success.6}"
+      },
+      "7-rgb": {
+        "$type": "color",
+        "$value": "{Color.Success.7}"
+      },
+      "8-rgb": {
+        "$type": "color",
+        "$value": "{Color.Success.8}"
+      },
+      "9-rgb": {
+        "$type": "color",
+        "$value": "{Color.Success.9}"
+      },
+      "10-rgb": {
+        "$type": "color",
+        "$value": "{Color.Success.10}"
+      },
+      "11-rgb": {
+        "$type": "color",
+        "$value": "{Color.Success.11}"
+      },
+      "12-rgb": {
+        "$type": "color",
+        "$value": "{Color.Success.12}"
+      }
+    },
+    "Warning": {
+      "1-rgb": {
+        "$type": "color",
+        "$value": "{Color.Warning.1}"
+      },
+      "2-rgb": {
+        "$type": "color",
+        "$value": "{Color.Warning.2}"
+      },
+      "3-rgb": {
+        "$type": "color",
+        "$value": "{Color.Warning.3}"
+      },
+      "4-rgb": {
+        "$type": "color",
+        "$value": "{Color.Warning.4}"
+      },
+      "5-rgb": {
+        "$type": "color",
+        "$value": "{Color.Warning.5}"
+      },
+      "6-rgb": {
+        "$type": "color",
+        "$value": "{Color.Warning.6}"
+      },
+      "7-rgb": {
+        "$type": "color",
+        "$value": "{Color.Warning.7}"
+      },
+      "8-rgb": {
+        "$type": "color",
+        "$value": "{Color.Warning.8}"
+      },
+      "9-rgb": {
+        "$type": "color",
+        "$value": "{Color.Warning.9}"
+      },
+      "10-rgb": {
+        "$type": "color",
+        "$value": "{Color.Warning.10}"
+      },
+      "11-rgb": {
+        "$type": "color",
+        "$value": "{Color.Warning.11}"
+      },
+      "12-rgb": {
+        "$type": "color",
+        "$value": "{Color.Warning.12}"
+      }
+    },
+    "Info": {
+      "1-rgb": {
+        "$type": "color",
+        "$value": "{Color.Info.1}"
+      },
+      "2-rgb": {
+        "$type": "color",
+        "$value": "{Color.Info.2}"
+      },
+      "3-rgb": {
+        "$type": "color",
+        "$value": "{Color.Info.3}"
+      },
+      "4-rgb": {
+        "$type": "color",
+        "$value": "{Color.Info.4}"
+      },
+      "5-rgb": {
+        "$type": "color",
+        "$value": "{Color.Info.5}"
+      },
+      "6-rgb": {
+        "$type": "color",
+        "$value": "{Color.Info.6}"
+      },
+      "7-rgb": {
+        "$type": "color",
+        "$value": "{Color.Info.7}"
+      },
+      "8-rgb": {
+        "$type": "color",
+        "$value": "{Color.Info.8}"
+      },
+      "9-rgb": {
+        "$type": "color",
+        "$value": "{Color.Info.9}"
+      },
+      "10-rgb": {
+        "$type": "color",
+        "$value": "{Color.Info.10}"
+      },
+      "11-rgb": {
+        "$type": "color",
+        "$value": "{Color.Info.11}"
+      },
+      "12-rgb": {
+        "$type": "color",
+        "$value": "{Color.Info.12}"
+      }
+    },
+    "white-rgb": {
+      "$type": "color",
+      "$value": "{Color.white}"
+    },
+    "black-rgb": {
+      "$type": "color",
+      "$value": "{Color.black}"
+    }
+  }
+}

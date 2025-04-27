@@ -1,1 +1,36 @@
-{}
+{
+  "Color": {
+    "white": {
+      "$type": "color",
+      "$value": "#ffffff"
+    },
+    "black": {
+      "$type": "color",
+      "$value": "#000000"
+    }
+  },
+  "Icon": {
+    "default": {
+      "$type": "color",
+      "$value": "{Color.Neutral.12}"
+    }
+  },
+  "Text": {
+    "default": {
+      "$type": "color",
+      "$value": "{Color.Neutral.12}"
+    }
+  },
+  "Bg": {
+    "default": {
+      "$type": "color",
+      "$value": "{Color.Neutral.1}"
+    }
+  },
+  "Border": {
+    "default": {
+      "$type": "color",
+      "$value": "{Color.Neutral.6}"
+    }
+  }
+}

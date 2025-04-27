@@ -11,15 +11,23 @@ function transformColorGroup(group: DesignTokenGroup, groupName: string) {
 
   for (const [key, value] of Object.entries(group)) {
     if (isDesignToken(value)) {
-      result[`${key}-rgb`] = {
-        $type: 'color',
-        $value: `{Color.${groupName}.${key}}`,
-      };
+      // Don't transform alpha and contrast tokens
+      if (!/^a([1-9]|1[0-2])$/.test(key) && key !== 'contrast') {
+        // Create rgb version of the token
+        result[`${key}-rgb`] = {
+          $type: 'color',
+          /* Alias it to the main token:
+           * 1. For shallow groups, format as {Color.key}, e.g. {Color.white}
+           * 2. For deeper groups, format as {Color.groupName.key}, e.g. {Color.Accent.1}
+           */
+          $value:
+            groupName === 'Color'
+              ? `{Color.${key}}`
+              : `{Color.${groupName}.${key}}`,
+        };
+      }
     } else {
-      result[key] = transformColorGroup(
-        value as DesignTokenGroup,
-        `${groupName}.${key}`,
-      );
+      result[key] = transformColorGroup(value as DesignTokenGroup, key);
     }
   }
 

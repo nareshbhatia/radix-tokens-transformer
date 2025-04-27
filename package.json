@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "build": "rimraf dist && tsc",
-    "codegen": "run-s _figma-tokens-to-w3c _w3c-tokens-to-platforms",
+    "codegen": "run-s _figma-tokens-to-w3c _generate-rgb-tokens _w3c-tokens-to-platforms",
     "clean": "rimraf node_modules dist",
     "dev": "tsx watch codegen/generate-legacy-tokens/index.ts",
     "fix": "run-s _lint:fix _format:fix",
@@ -15,7 +15,7 @@
     "_lint:fix": "npm run _lint -- --fix",
     "test": "echo No tests in this package",
     "_figma-tokens-to-w3c": "node dist/transform-figma-tokens-to-w3c",
-    "_generate-legacy-tokens": "node dist/generate-legacy-tokens",
+    "_generate-rgb-tokens": "node dist/generate-rgb-tokens",
     "_w3c-tokens-to-platforms": "node dist/transform-w3c-tokens-to-platforms"
   },
   "devDependencies": {

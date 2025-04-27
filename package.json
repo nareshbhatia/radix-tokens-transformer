@@ -11,7 +11,7 @@
     "lint": "run-s _lint _format",
     "_format": "prettier --list-different '*.{js,ts,json,md}' 'src/**/*.{css,js,ts,json,md}' 'codegen/**/*.{css,js,ts,json,md}'",
     "_format:fix": "npm run _format -- --write",
-    "_lint": "eslint '**/*.{js,jsx,ts,tsx}'",
+    "_lint": "eslint 'codegen/**/*.{js,jsx,ts,tsx}'",
     "_lint:fix": "npm run _lint -- --fix",
     "test": "echo No tests in this package",
     "_figma-tokens-to-w3c": "node dist/transform-figma-tokens-to-w3c",

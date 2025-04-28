@@ -24,15 +24,21 @@ try {
     const transformedTokens = transformDesignTokenFile(srcFile);
 
     // Merge at the second level within Color group
-    if (transformedTokens.Color) {
-      if (!rgbTokens.Color) {
+    if (
+      transformedTokens.Color !== undefined &&
+      transformedTokens.Color !== null
+    ) {
+      if (rgbTokens.Color === undefined || rgbTokens.Color === null) {
         rgbTokens.Color = {};
       }
       // Merge each color group from the transformed tokens
       for (const [colorGroup, colorTokens] of Object.entries(
         transformedTokens.Color,
       )) {
-        if (!rgbTokens.Color[colorGroup]) {
+        if (
+          rgbTokens.Color[colorGroup] === undefined ||
+          rgbTokens.Color[colorGroup] === null
+        ) {
           rgbTokens.Color[colorGroup] = {};
         }
         // Merge the tokens within this color group

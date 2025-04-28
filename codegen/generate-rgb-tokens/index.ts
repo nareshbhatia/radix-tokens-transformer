@@ -17,7 +17,7 @@ try {
     mkdirSync(destDir, { recursive: true });
   }
 
-  let rgbTokens: DesignTokensFile = {};
+  const rgbTokens: DesignTokensFile = {};
 
   for (const src of srcFiles) {
     const srcFile = JSON.parse(readFileSync(src, 'utf-8')) as DesignTokensFile;

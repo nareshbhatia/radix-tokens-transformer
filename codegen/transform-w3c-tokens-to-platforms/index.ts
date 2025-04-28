@@ -5,6 +5,7 @@ const THEMES = ['twilight', 'corporate', 'velvet'];
 const COLOR_MODES = ['light', 'dark'];
 
 const TRANSFORM_COLOR_RGB_COMMA_SEPARATED = 'color/rgb-comma-separated';
+const FILTER_BASE_COLORS = 'filter-base-colors';
 
 /*
  * The `DesignToken` type is defined in Style Dictionary in the file
@@ -84,6 +85,12 @@ StyleDictionary.registerTransform({
   },
 });
 
+// Filter tokens of type color and not containing the `Rgb` suffix
+StyleDictionary.registerFilter({
+  name: FILTER_BASE_COLORS,
+  filter: (token) => token.$type === 'color' && !token.name.endsWith('Rgb'),
+});
+
 for (const theme of THEMES) {
   for (const colorMode of COLOR_MODES) {
     const config = {
@@ -113,6 +120,7 @@ for (const theme of THEMES) {
             {
               destination: `${theme}.${colorMode}.ts`,
               format: 'javascript/es6',
+              filter: FILTER_BASE_COLORS,
             },
           ],
         },

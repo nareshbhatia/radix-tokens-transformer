@@ -6,7 +6,7 @@
     "build": "rimraf dist && tsc",
     "codegen": "run-s _figma-tokens-to-w3c _generate-rgb-tokens _w3c-tokens-to-platforms",
     "clean": "rimraf node_modules dist",
-    "dev": "tsx watch codegen/generate-legacy-tokens/index.ts",
+    "dev": "tsx watch codegen/generate-rgb-tokens/index.ts",
     "fix": "run-s _lint:fix _format:fix",
     "lint": "run-s _lint _format",
     "_format": "prettier --list-different '*.{js,ts,json,md}' 'src/**/*.{css,js,ts,json,md}' 'codegen/**/*.{css,js,ts,json,md}'",

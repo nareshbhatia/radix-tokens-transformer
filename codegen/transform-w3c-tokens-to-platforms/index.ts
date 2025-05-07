@@ -1,8 +1,16 @@
 import StyleDictionary from 'style-dictionary';
 import { transformTypes } from 'style-dictionary/enums';
 
-const THEMES = ['twilight', 'corporate', 'velvet'];
-const COLOR_MODES = ['light', 'dark'];
+enum Platform {
+  Corporate = 'corporate',
+  Twilight = 'twilight',
+  Velvet = 'velvet',
+}
+
+enum ColorMode {
+  Light = 'light',
+  Dark = 'dark',
+}
 
 const TRANSFORM_COLOR_RGB_COMMA_SEPARATED = 'color/rgb-comma-separated';
 const FILTER_BASE_COLORS = 'filter-base-colors';
@@ -91,12 +99,12 @@ StyleDictionary.registerFilter({
   filter: (token) => token.$type === 'color' && !token.name.endsWith('Rgb'),
 });
 
-for (const theme of THEMES) {
-  for (const colorMode of COLOR_MODES) {
+for (const platform of Object.values(Platform)) {
+  for (const colorMode of Object.values(ColorMode)) {
     const config = {
       source: [
-        `tokens-w3c/primitives/primitives.${theme}.tokens.json`,
-        `tokens-w3c/theme/theme.${theme}.tokens.json`,
+        `tokens-w3c/primitives/primitives.${platform}.tokens.json`,
+        `tokens-w3c/theme/theme.${platform}.tokens.json`,
         `tokens-w3c/color-mode/color-mode.${colorMode}.tokens.json`,
         'tokens-w3c/semantic/**/*.json',
       ],
@@ -107,7 +115,7 @@ for (const theme of THEMES) {
           buildPath: 'src/css/',
           files: [
             {
-              destination: `${theme}.${colorMode}.css`,
+              destination: `${platform}.${colorMode}.css`,
               format: 'css/variables',
             },
           ],
@@ -118,7 +126,7 @@ for (const theme of THEMES) {
           buildPath: 'src/ts/',
           files: [
             {
-              destination: `${theme}.${colorMode}.ts`,
+              destination: `${platform}.${colorMode}.ts`,
               format: 'javascript/es6',
               filter: FILTER_BASE_COLORS,
             },

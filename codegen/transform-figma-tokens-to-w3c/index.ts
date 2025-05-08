@@ -28,8 +28,12 @@ const fileMappings = [
     destination: 'tokens-w3c/primitives/primitives.velvet.tokens.json',
   },
   {
-    source: 'tokens-figma/semantic.tokens.json',
-    destination: 'tokens-w3c/semantic/semantic.tokens.json',
+    source: 'tokens-figma/semantic-colors.tokens.json',
+    destination: 'tokens-w3c/semantic/semantic-colors.tokens.json',
+  },
+  {
+    source: 'tokens-figma/semantic-tokens.tokens.json',
+    destination: 'tokens-w3c/semantic/semantic-tokens.tokens.json',
   },
   {
     source: 'tokens-figma/theme.corporate.tokens.json',

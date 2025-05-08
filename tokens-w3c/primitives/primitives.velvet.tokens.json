@@ -139,6 +139,42 @@
     "384": {
       "$type": "dimension",
       "$value": "24rem"
+    },
+    "448": {
+      "$type": "dimension",
+      "$value": "28rem"
+    },
+    "512": {
+      "$type": "dimension",
+      "$value": "32rem"
+    },
+    "576": {
+      "$type": "dimension",
+      "$value": "36rem"
+    },
+    "672": {
+      "$type": "dimension",
+      "$value": "42rem"
+    },
+    "768": {
+      "$type": "dimension",
+      "$value": "48rem"
+    },
+    "896": {
+      "$type": "dimension",
+      "$value": "56rem"
+    },
+    "1024": {
+      "$type": "dimension",
+      "$value": "64rem"
+    },
+    "1152": {
+      "$type": "dimension",
+      "$value": "72rem"
+    },
+    "1280": {
+      "$type": "dimension",
+      "$value": "80rem"
     }
   },
   "Font Family": {

@@ -5,7 +5,7 @@ import path from 'path';
 
 const srcFiles = [
   'tokens-w3c/theme/theme.twilight.tokens.json',
-  'tokens-w3c/semantic/semantic.tokens.json',
+  'tokens-w3c/semantic/semantic-colors.tokens.json',
 ];
 
 const dstFile = 'tokens-w3c/semantic/rgb-colors.tokens.json';

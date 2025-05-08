@@ -139,6 +139,42 @@
     "384": {
       "$type": "number",
       "$value": 384
+    },
+    "448": {
+      "$type": "number",
+      "$value": 448
+    },
+    "512": {
+      "$type": "number",
+      "$value": 512
+    },
+    "576": {
+      "$type": "number",
+      "$value": 576
+    },
+    "672": {
+      "$type": "number",
+      "$value": 672
+    },
+    "768": {
+      "$type": "number",
+      "$value": 768
+    },
+    "896": {
+      "$type": "number",
+      "$value": 896
+    },
+    "1024": {
+      "$type": "number",
+      "$value": 1024
+    },
+    "1152": {
+      "$type": "number",
+      "$value": 1152
+    },
+    "1280": {
+      "$type": "number",
+      "$value": 1280
     }
   },
   "Font Family": {

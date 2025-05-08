@@ -222,22 +222,6 @@
       "error-alpha": {
         "$type": "color",
         "$value": "{Color.Error.a11}"
-      },
-      "input-disabled": {
-        "$type": "color",
-        "$value": "{Color.Neutral.a8}"
-      },
-      "tag-neutral-contrast": {
-        "$type": "color",
-        "$value": "{Color.Neutral.3}"
-      },
-      "tag-blue-contrast": {
-        "$type": "color",
-        "$value": "{Color.Accent.3}"
-      },
-      "tag-green-contrast": {
-        "$type": "color",
-        "$value": "{Color.Success.3}"
       }
     },
     "black": {

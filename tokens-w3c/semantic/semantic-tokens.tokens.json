@@ -48,6 +48,10 @@
       "$type": "number",
       "$value": "{Dimension.24}"
     },
+    "28": {
+      "$type": "number",
+      "$value": "{Dimension.28}"
+    },
     "32": {
       "$type": "number",
       "$value": "{Dimension.32}"
@@ -230,6 +234,10 @@
       "$type": "number",
       "$value": "{Dimension.24}"
     },
+    "28": {
+      "$type": "number",
+      "$value": "{Dimension.28}"
+    },
     "32": {
       "$type": "number",
       "$value": "{Dimension.32}"
@@ -301,6 +309,58 @@
     "240": {
       "$type": "number",
       "$value": "{Dimension.240}"
+    },
+    "256": {
+      "$type": "number",
+      "$value": "{Dimension.256}"
+    },
+    "288": {
+      "$type": "number",
+      "$value": "{Dimension.288}"
+    },
+    "320": {
+      "$type": "number",
+      "$value": "{Dimension.320}"
+    },
+    "384": {
+      "$type": "number",
+      "$value": "{Dimension.384}"
+    },
+    "448": {
+      "$type": "number",
+      "$value": "{Dimension.448}"
+    },
+    "512": {
+      "$type": "number",
+      "$value": "{Dimension.512}"
+    },
+    "576": {
+      "$type": "number",
+      "$value": "{Dimension.576}"
+    },
+    "672": {
+      "$type": "number",
+      "$value": "{Dimension.672}"
+    },
+    "768": {
+      "$type": "number",
+      "$value": "{Dimension.768}"
+    },
+    "896": {
+      "$type": "number",
+      "$value": "{Dimension.896}"
+    },
+    "1024": {
+      "$type": "number",
+      "$value": "{Dimension.1024}"
+    },
+    "1152": {
+      "$type": "number",
+      "$value": "{Dimension.1152}"
+    },
+    "1280": {
+      "$type": "number",
+      "$value": "{Dimension.1280}"
     }
   },
   "Offset": {

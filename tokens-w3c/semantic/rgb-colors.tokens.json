@@ -309,34 +309,6 @@
         "$type": "color",
         "$value": "{Color.bg.secondary}"
       },
-      "elevation1-rgb": {
-        "$type": "color",
-        "$value": "{Color.bg.elevation1}"
-      },
-      "elevation2-rgb": {
-        "$type": "color",
-        "$value": "{Color.bg.elevation2}"
-      },
-      "elevation2-hover-rgb": {
-        "$type": "color",
-        "$value": "{Color.bg.elevation2-hover}"
-      },
-      "elevation3-rgb": {
-        "$type": "color",
-        "$value": "{Color.bg.elevation3}"
-      },
-      "elevation3-hover-rgb": {
-        "$type": "color",
-        "$value": "{Color.bg.elevation3-hover}"
-      },
-      "elevation4-rgb": {
-        "$type": "color",
-        "$value": "{Color.bg.elevation4}"
-      },
-      "elevation4-hover-rgb": {
-        "$type": "color",
-        "$value": "{Color.bg.elevation4-hover}"
-      },
       "disabled-rgb": {
         "$type": "color",
         "$value": "{Color.bg.disabled}"
@@ -388,34 +360,6 @@
       "warning-hover-alpha-rgb": {
         "$type": "color",
         "$value": "{Color.bg.warning-hover-alpha}"
-      },
-      "input-disabled-rgb": {
-        "$type": "color",
-        "$value": "{Color.bg.input-disabled}"
-      },
-      "tag-neutral-rgb": {
-        "$type": "color",
-        "$value": "{Color.bg.tag-neutral}"
-      },
-      "tag-neutral-hover-rgb": {
-        "$type": "color",
-        "$value": "{Color.bg.tag-neutral-hover}"
-      },
-      "tag-blue-rgb": {
-        "$type": "color",
-        "$value": "{Color.bg.tag-blue}"
-      },
-      "tag-blue-hover-rgb": {
-        "$type": "color",
-        "$value": "{Color.bg.tag-blue-hover}"
-      },
-      "tag-green-rgb": {
-        "$type": "color",
-        "$value": "{Color.bg.tag-green}"
-      },
-      "tag-green-hover-rgb": {
-        "$type": "color",
-        "$value": "{Color.bg.tag-green-hover}"
       }
     },
     "border": {
@@ -438,42 +382,6 @@
       "disabled-rgb": {
         "$type": "color",
         "$value": "{Color.border.disabled}"
-      },
-      "accent-rgb": {
-        "$type": "color",
-        "$value": "{Color.border.accent}"
-      },
-      "info-rgb": {
-        "$type": "color",
-        "$value": "{Color.border.info}"
-      },
-      "error-rgb": {
-        "$type": "color",
-        "$value": "{Color.border.error}"
-      },
-      "warning-rgb": {
-        "$type": "color",
-        "$value": "{Color.border.warning}"
-      },
-      "success-rgb": {
-        "$type": "color",
-        "$value": "{Color.border.success}"
-      },
-      "neutral-focus-rgb": {
-        "$type": "color",
-        "$value": "{Color.border.neutral-focus}"
-      },
-      "accent-focus-rgb": {
-        "$type": "color",
-        "$value": "{Color.border.accent-focus}"
-      },
-      "warning-focus-rgb": {
-        "$type": "color",
-        "$value": "{Color.border.warning-focus}"
-      },
-      "error-focus-rgb": {
-        "$type": "color",
-        "$value": "{Color.border.error-focus}"
       }
     },
     "icon": {
@@ -544,22 +452,6 @@
       "error-alpha-rgb": {
         "$type": "color",
         "$value": "{Color.icon.error-alpha}"
-      },
-      "input-disabled-rgb": {
-        "$type": "color",
-        "$value": "{Color.icon.input-disabled}"
-      },
-      "tag-neutral-contrast-rgb": {
-        "$type": "color",
-        "$value": "{Color.icon.tag-neutral-contrast}"
-      },
-      "tag-blue-contrast-rgb": {
-        "$type": "color",
-        "$value": "{Color.icon.tag-blue-contrast}"
-      },
-      "tag-green-contrast-rgb": {
-        "$type": "color",
-        "$value": "{Color.icon.tag-green-contrast}"
       }
     },
     "text": {
@@ -630,90 +522,6 @@
       "error-alpha-rgb": {
         "$type": "color",
         "$value": "{Color.text.error-alpha}"
-      },
-      "input-disabled-rgb": {
-        "$type": "color",
-        "$value": "{Color.text.input-disabled}"
-      },
-      "tag-neutral-contrast-rgb": {
-        "$type": "color",
-        "$value": "{Color.text.tag-neutral-contrast}"
-      },
-      "tag-blue-contrast-rgb": {
-        "$type": "color",
-        "$value": "{Color.text.tag-blue-contrast}"
-      },
-      "tag-green-contrast-rgb": {
-        "$type": "color",
-        "$value": "{Color.text.tag-green-contrast}"
-      }
-    },
-    "disposition": {
-      "hostile-rgb": {
-        "$type": "color",
-        "$value": "{Color.disposition.hostile}"
-      },
-      "suspect-rgb": {
-        "$type": "color",
-        "$value": "{Color.disposition.suspect}"
-      },
-      "unknown-rgb": {
-        "$type": "color",
-        "$value": "{Color.disposition.unknown}"
-      },
-      "assumed-friend-rgb": {
-        "$type": "color",
-        "$value": "{Color.disposition.assumed-friend}"
-      },
-      "friendly-rgb": {
-        "$type": "color",
-        "$value": "{Color.disposition.friendly}"
-      },
-      "civilian-rgb": {
-        "$type": "color",
-        "$value": "{Color.disposition.civilian}"
-      },
-      "pending-rgb": {
-        "$type": "color",
-        "$value": "{Color.disposition.pending}"
-      }
-    },
-    "classification-markings": {
-      "unclassified-rgb": {
-        "$type": "color",
-        "$value": "{Color.classification-markings.unclassified}"
-      },
-      "confidential-rgb": {
-        "$type": "color",
-        "$value": "{Color.classification-markings.confidential}"
-      },
-      "cui-rgb": {
-        "$type": "color",
-        "$value": "{Color.classification-markings.cui}"
-      },
-      "s-rgb": {
-        "$type": "color",
-        "$value": "{Color.classification-markings.s}"
-      },
-      "ts-rgb": {
-        "$type": "color",
-        "$value": "{Color.classification-markings.ts}"
-      },
-      "ts-sci-rgb": {
-        "$type": "color",
-        "$value": "{Color.classification-markings.ts-sci}"
-      },
-      "p-a-rgb": {
-        "$type": "color",
-        "$value": "{Color.classification-markings.p-a}"
-      },
-      "p-b-rgb": {
-        "$type": "color",
-        "$value": "{Color.classification-markings.p-b}"
-      },
-      "p-c-rgb": {
-        "$type": "color",
-        "$value": "{Color.classification-markings.p-c}"
       }
     },
     "black-rgb": {

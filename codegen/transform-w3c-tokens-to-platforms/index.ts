@@ -13,7 +13,8 @@ enum ColorMode {
 }
 
 const TRANSFORM_COLOR_RGB_COMMA_SEPARATED = 'color/rgb-comma-separated';
-const FILTER_BASE_COLORS = 'filter-base-colors';
+const FILTER_REMOVE_PRIMITIVES = 'filter-remove-primitives';
+const FILTER_FOR_JAVASCRIPT_OUTPUT = 'filter-for-javascript-output';
 
 /*
  * The `DesignToken` type is defined in Style Dictionary in the file
@@ -93,10 +94,30 @@ StyleDictionary.registerTransform({
   },
 });
 
-// Filter tokens of type color and not containing the `Rgb` suffix
+/*
+ * Filter for CSS output
+ *   - remove primitive tokens except for the dimension tokens
+ */
 StyleDictionary.registerFilter({
-  name: FILTER_BASE_COLORS,
-  filter: (token) => token.$type === 'color' && !token.name.endsWith('Rgb'),
+  name: FILTER_REMOVE_PRIMITIVES,
+  filter: (token) =>
+    token.name.includes('dimension') ||
+    (!token.filePath.startsWith('tokens-w3c/color-mode') &&
+      !token.filePath.startsWith('tokens-w3c/primitives')),
+});
+
+/*
+ * Filter for JavaScript output:
+ *   - remove color tokens with `Rgb` suffix
+ *   - remove primitive tokens
+ */
+StyleDictionary.registerFilter({
+  name: FILTER_FOR_JAVASCRIPT_OUTPUT,
+  filter: (token) =>
+    token.$type === 'color' &&
+    !token.name.endsWith('Rgb') &&
+    !token.filePath.startsWith('tokens-w3c/color-mode') &&
+    !token.filePath.startsWith('tokens-w3c/primitives'),
 });
 
 for (const platform of Object.values(Platform)) {
@@ -117,6 +138,7 @@ for (const platform of Object.values(Platform)) {
             {
               destination: `${platform}.${colorMode}.css`,
               format: 'css/variables',
+              filter: FILTER_REMOVE_PRIMITIVES,
             },
           ],
           prefix: 'rt',
@@ -128,7 +150,7 @@ for (const platform of Object.values(Platform)) {
             {
               destination: `${platform}.${colorMode}.ts`,
               format: 'javascript/es6',
-              filter: FILTER_BASE_COLORS,
+              filter: FILTER_FOR_JAVASCRIPT_OUTPUT,
             },
           ],
         },

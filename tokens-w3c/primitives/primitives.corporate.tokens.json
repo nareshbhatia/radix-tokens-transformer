@@ -184,7 +184,7 @@
     },
     "primitive-mono": {
       "$type": "fontFamily",
-      "$value": "Roboto Mono"
+      "$value": "Source Code Pro"
     }
   },
   "Font Size": {

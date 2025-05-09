@@ -180,11 +180,11 @@
   "Font Family": {
     "primitive-sans": {
       "$type": "string",
-      "$value": "Fraunces"
+      "$value": "Roboto"
     },
     "primitive-mono": {
       "$type": "string",
-      "$value": "JetBrains Mono"
+      "$value": "Roboto Mono"
     }
   },
   "Font Size": {

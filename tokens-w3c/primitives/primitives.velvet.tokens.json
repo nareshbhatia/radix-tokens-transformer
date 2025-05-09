@@ -180,11 +180,11 @@
   "Font Family": {
     "primitive-sans": {
       "$type": "fontFamily",
-      "$value": "Bodoni Moda"
+      "$value": "Open Sans"
     },
     "primitive-mono": {
       "$type": "fontFamily",
-      "$value": "Recursive"
+      "$value": "JetBrains Mono"
     }
   },
   "Font Size": {

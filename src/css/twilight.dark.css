@@ -47,10 +47,10 @@
   --rt-dimension-1024: 64rem;
   --rt-dimension-1152: 72rem;
   --rt-dimension-1280: 80rem;
-  --rt-font-family-primitive-sans: Fraunces;
-  --rt-font-family-primitive-mono: 'JetBrains Mono';
-  --rt-font-family-sans: Fraunces;
-  --rt-font-family-mono: 'JetBrains Mono';
+  --rt-font-family-primitive-sans: Roboto;
+  --rt-font-family-primitive-mono: 'Roboto Mono';
+  --rt-font-family-sans: Roboto;
+  --rt-font-family-mono: 'Roboto Mono';
   --rt-font-size-1: 0.75rem;
   --rt-font-size-2: 0.875rem;
   --rt-font-size-3: 1rem;

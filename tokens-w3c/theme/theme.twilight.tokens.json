@@ -3,99 +3,99 @@
     "Accent": {
       "1": {
         "$type": "color",
-        "$value": "{Color.Indigo.1}"
+        "$value": "{Color.Blue.1}"
       },
       "2": {
         "$type": "color",
-        "$value": "{Color.Indigo.2}"
+        "$value": "{Color.Blue.2}"
       },
       "3": {
         "$type": "color",
-        "$value": "{Color.Indigo.3}"
+        "$value": "{Color.Blue.3}"
       },
       "4": {
         "$type": "color",
-        "$value": "{Color.Indigo.4}"
+        "$value": "{Color.Blue.4}"
       },
       "5": {
         "$type": "color",
-        "$value": "{Color.Indigo.5}"
+        "$value": "{Color.Blue.5}"
       },
       "6": {
         "$type": "color",
-        "$value": "{Color.Indigo.6}"
+        "$value": "{Color.Blue.6}"
       },
       "7": {
         "$type": "color",
-        "$value": "{Color.Indigo.7}"
+        "$value": "{Color.Blue.7}"
       },
       "8": {
         "$type": "color",
-        "$value": "{Color.Indigo.8}"
+        "$value": "{Color.Blue.8}"
       },
       "9": {
         "$type": "color",
-        "$value": "{Color.Indigo.9}"
+        "$value": "{Color.Blue.9}"
       },
       "10": {
         "$type": "color",
-        "$value": "{Color.Indigo.10}"
+        "$value": "{Color.Blue.10}"
       },
       "11": {
         "$type": "color",
-        "$value": "{Color.Indigo.11}"
+        "$value": "{Color.Blue.11}"
       },
       "12": {
         "$type": "color",
-        "$value": "{Color.Indigo.12}"
+        "$value": "{Color.Blue.12}"
       },
       "a1": {
         "$type": "color",
-        "$value": "{Color.Indigo.a1}"
+        "$value": "{Color.Blue.a1}"
       },
       "a2": {
         "$type": "color",
-        "$value": "{Color.Indigo.a2}"
+        "$value": "{Color.Blue.a2}"
       },
       "a3": {
         "$type": "color",
-        "$value": "{Color.Indigo.a3}"
+        "$value": "{Color.Blue.a3}"
       },
       "a4": {
         "$type": "color",
-        "$value": "{Color.Indigo.a4}"
+        "$value": "{Color.Blue.a4}"
       },
       "a5": {
         "$type": "color",
-        "$value": "{Color.Indigo.a5}"
+        "$value": "{Color.Blue.a5}"
       },
       "a6": {
         "$type": "color",
-        "$value": "{Color.Indigo.a6}"
+        "$value": "{Color.Blue.a6}"
       },
       "a7": {
         "$type": "color",
-        "$value": "{Color.Indigo.a7}"
+        "$value": "{Color.Blue.a7}"
       },
       "a8": {
         "$type": "color",
-        "$value": "{Color.Indigo.a8}"
+        "$value": "{Color.Blue.a8}"
       },
       "a9": {
         "$type": "color",
-        "$value": "{Color.Indigo.a9}"
+        "$value": "{Color.Blue.a9}"
       },
       "a10": {
         "$type": "color",
-        "$value": "{Color.Indigo.a10}"
+        "$value": "{Color.Blue.a10}"
       },
       "a11": {
         "$type": "color",
-        "$value": "{Color.Indigo.a11}"
+        "$value": "{Color.Blue.a11}"
       },
       "a12": {
         "$type": "color",
-        "$value": "{Color.Indigo.a12}"
+        "$value": "{Color.Blue.a12}"
       },
       "contrast": {
         "$type": "color",

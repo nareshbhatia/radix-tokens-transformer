@@ -713,6 +713,108 @@
         "$type": "color",
         "$value": "#1c2024"
       }
+    },
+    "Purple": {
+      "1": {
+        "$type": "color",
+        "$value": "#fefcfe"
+      },
+      "2": {
+        "$type": "color",
+        "$value": "#fbf7fe"
+      },
+      "3": {
+        "$type": "color",
+        "$value": "#f7edfe"
+      },
+      "4": {
+        "$type": "color",
+        "$value": "#f2e2fc"
+      },
+      "5": {
+        "$type": "color",
+        "$value": "#ead5f9"
+      },
+      "6": {
+        "$type": "color",
+        "$value": "#e0c4f4"
+      },
+      "7": {
+        "$type": "color",
+        "$value": "#d1afec"
+      },
+      "8": {
+        "$type": "color",
+        "$value": "#be93e4"
+      },
+      "9": {
+        "$type": "color",
+        "$value": "#8e4ec6"
+      },
+      "10": {
+        "$type": "color",
+        "$value": "#8347b9"
+      },
+      "11": {
+        "$type": "color",
+        "$value": "#8145b5"
+      },
+      "12": {
+        "$type": "color",
+        "$value": "#402060"
+      },
+      "a1": {
+        "$type": "color",
+        "$value": "rgba(170, 0, 170, 0.0118)"
+      },
+      "a2": {
+        "$type": "color",
+        "$value": "rgba(128, 0, 224, 0.0314)"
+      },
+      "a3": {
+        "$type": "color",
+        "$value": "rgba(142, 0, 241, 0.0706)"
+      },
+      "a4": {
+        "$type": "color",
+        "$value": "rgba(141, 0, 229, 0.1137)"
+      },
+      "a5": {
+        "$type": "color",
+        "$value": "rgba(128, 0, 219, 0.1647)"
+      },
+      "a6": {
+        "$type": "color",
+        "$value": "rgba(122, 1, 208, 0.2314)"
+      },
+      "a7": {
+        "$type": "color",
+        "$value": "rgba(109, 0, 195, 0.3137)"
+      },
+      "a8": {
+        "$type": "color",
+        "$value": "rgba(102, 0, 192, 0.4235)"
+      },
+      "a9": {
+        "$type": "color",
+        "$value": "rgba(92, 0, 173, 0.6941)"
+      },
+      "a10": {
+        "$type": "color",
+        "$value": "rgba(83, 0, 158, 0.7216)"
+      },
+      "a11": {
+        "$type": "color",
+        "$value": "rgba(82, 0, 154, 0.7294)"
+      },
+      "a12": {
+        "$type": "color",
+        "$value": "rgba(37, 0, 73, 0.8745)"
+      },
+      "contrast": {
+        "$type": "color",
+        "$value": "#ffffff"
+      }
     }
   },
   "Overlay": {

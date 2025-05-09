@@ -3,103 +3,103 @@
     "Accent": {
       "1": {
         "$type": "color",
-        "$value": "{Color.Red.1}"
+        "$value": "{Color.Purple.1}"
       },
       "2": {
         "$type": "color",
-        "$value": "{Color.Red.2}"
+        "$value": "{Color.Purple.2}"
       },
       "3": {
         "$type": "color",
-        "$value": "{Color.Red.3}"
+        "$value": "{Color.Purple.3}"
       },
       "4": {
         "$type": "color",
-        "$value": "{Color.Red.4}"
+        "$value": "{Color.Purple.4}"
       },
       "5": {
         "$type": "color",
-        "$value": "{Color.Red.5}"
+        "$value": "{Color.Purple.5}"
       },
       "6": {
         "$type": "color",
-        "$value": "{Color.Red.6}"
+        "$value": "{Color.Purple.6}"
       },
       "7": {
         "$type": "color",
-        "$value": "{Color.Red.7}"
+        "$value": "{Color.Purple.7}"
       },
       "8": {
         "$type": "color",
-        "$value": "{Color.Red.8}"
+        "$value": "{Color.Purple.8}"
       },
       "9": {
         "$type": "color",
-        "$value": "{Color.Red.9}"
+        "$value": "{Color.Purple.9}"
       },
       "10": {
         "$type": "color",
-        "$value": "{Color.Red.10}"
+        "$value": "{Color.Purple.10}"
       },
       "11": {
         "$type": "color",
-        "$value": "{Color.Red.11}"
+        "$value": "{Color.Purple.11}"
       },
       "12": {
         "$type": "color",
-        "$value": "{Color.Red.12}"
+        "$value": "{Color.Purple.12}"
       },
       "a1": {
         "$type": "color",
-        "$value": "{Color.Red.a1}"
+        "$value": "{Color.Purple.a1}"
       },
       "a2": {
         "$type": "color",
-        "$value": "{Color.Red.a2}"
+        "$value": "{Color.Purple.a2}"
       },
       "a3": {
         "$type": "color",
-        "$value": "{Color.Red.a3}"
+        "$value": "{Color.Purple.a3}"
       },
       "a4": {
         "$type": "color",
-        "$value": "{Color.Red.a4}"
+        "$value": "{Color.Purple.a4}"
       },
       "a5": {
         "$type": "color",
-        "$value": "{Color.Red.a5}"
+        "$value": "{Color.Purple.a5}"
       },
       "a6": {
         "$type": "color",
-        "$value": "{Color.Red.a6}"
+        "$value": "{Color.Purple.a6}"
       },
       "a7": {
         "$type": "color",
-        "$value": "{Color.Red.a7}"
+        "$value": "{Color.Purple.a7}"
       },
       "a8": {
         "$type": "color",
-        "$value": "{Color.Red.a8}"
+        "$value": "{Color.Purple.a8}"
       },
       "a9": {
         "$type": "color",
-        "$value": "{Color.Red.a10}"
+        "$value": "{Color.Purple.a9}"
       },
       "a10": {
         "$type": "color",
-        "$value": "{Color.Red.a10}"
+        "$value": "{Color.Purple.a10}"
       },
       "a11": {
         "$type": "color",
-        "$value": "{Color.Red.a11}"
+        "$value": "{Color.Purple.a11}"
       },
       "a12": {
         "$type": "color",
-        "$value": "{Color.Red.a12}"
+        "$value": "{Color.Purple.a12}"
       },
       "contrast": {
         "$type": "color",
-        "$value": "{Color.Red.contrast}"
+        "$value": "{Color.Purple.contrast}"
       }
     },
     "Neutral": {

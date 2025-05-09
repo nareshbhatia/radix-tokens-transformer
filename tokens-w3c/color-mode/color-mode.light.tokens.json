@@ -717,35 +717,35 @@
     "Purple": {
       "1": {
         "$type": "color",
-        "$value": "#18111b"
+        "$value": "#fefcfe"
       },
       "2": {
         "$type": "color",
-        "$value": "#1e1523"
+        "$value": "#fbf7fe"
       },
       "3": {
         "$type": "color",
-        "$value": "#301c3b"
+        "$value": "#f7edfe"
       },
       "4": {
         "$type": "color",
-        "$value": "#3d224e"
+        "$value": "#f2e2fc"
       },
       "5": {
         "$type": "color",
-        "$value": "#48295c"
+        "$value": "#ead5f9"
       },
       "6": {
         "$type": "color",
-        "$value": "#54346b"
+        "$value": "#e0c4f4"
       },
       "7": {
         "$type": "color",
-        "$value": "#664282"
+        "$value": "#d1afec"
       },
       "8": {
         "$type": "color",
-        "$value": "#8457aa"
+        "$value": "#be93e4"
       },
       "9": {
         "$type": "color",
@@ -753,63 +753,63 @@
       },
       "10": {
         "$type": "color",
-        "$value": "#9a5cd0"
+        "$value": "#8347b9"
       },
       "11": {
         "$type": "color",
-        "$value": "#d19dff"
+        "$value": "#8145b5"
       },
       "12": {
         "$type": "color",
-        "$value": "#ecd9fa"
+        "$value": "#402060"
       },
       "a1": {
         "$type": "color",
-        "$value": "rgba(180, 18, 249, 0.0431)"
+        "$value": "rgba(170, 0, 170, 0.0118)"
       },
       "a2": {
         "$type": "color",
-        "$value": "rgba(183, 68, 247, 0.0784)"
+        "$value": "rgba(128, 0, 224, 0.0314)"
       },
       "a3": {
         "$type": "color",
-        "$value": "rgba(193, 80, 255, 0.1765)"
+        "$value": "rgba(142, 0, 241, 0.0706)"
       },
       "a4": {
         "$type": "color",
-        "$value": "rgba(187, 83, 253, 0.2588)"
+        "$value": "rgba(141, 0, 229, 0.1137)"
       },
       "a5": {
         "$type": "color",
-        "$value": "rgba(190, 92, 253, 0.3176)"
+        "$value": "rgba(128, 0, 219, 0.1647)"
       },
       "a6": {
         "$type": "color",
-        "$value": "rgba(193, 109, 253, 0.3804)"
+        "$value": "rgba(122, 1, 208, 0.2314)"
       },
       "a7": {
         "$type": "color",
-        "$value": "rgba(195, 120, 253, 0.4784)"
+        "$value": "rgba(109, 0, 195, 0.3137)"
       },
       "a8": {
         "$type": "color",
-        "$value": "rgba(196, 126, 255, 0.6431)"
+        "$value": "rgba(102, 0, 192, 0.4235)"
       },
       "a9": {
         "$type": "color",
-        "$value": "rgba(182, 97, 255, 0.7608)"
+        "$value": "rgba(92, 0, 173, 0.6941)"
       },
       "a10": {
         "$type": "color",
-        "$value": "rgba(188, 111, 255, 0.8039)"
+        "$value": "rgba(83, 0, 158, 0.7216)"
       },
       "a11": {
         "$type": "color",
-        "$value": "#d19dff"
+        "$value": "rgba(82, 0, 154, 0.7294)"
       },
       "a12": {
         "$type": "color",
-        "$value": "rgba(241, 221, 255, 0.9804)"
+        "$value": "rgba(37, 0, 73, 0.8745)"
       },
       "contrast": {
         "$type": "color",

@@ -9,7 +9,7 @@
     "dev": "tsx watch codegen/generate-rgb-tokens/index.ts",
     "fix": "run-s _lint:fix _format:fix",
     "lint": "run-s _lint _format",
-    "_format": "prettier --list-different '*.{js,ts,json,md}' 'src/**/*.{css,js,ts,json,md}' 'codegen/**/*.{css,js,ts,json,md}'",
+    "_format": "prettier --list-different '*.{js,ts,json,md}' '{src,codegen,tokens-figma,tokens-w3c}/**/*.{css,js,ts,json,md}'",
     "_format:fix": "npm run _format -- --write",
     "_lint": "eslint 'codegen/**/*.{js,jsx,ts,tsx}'",
     "_lint:fix": "npm run _lint -- --fix",
